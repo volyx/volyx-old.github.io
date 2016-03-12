@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0" xmlns:media="http://search.yahoo.com/mrss/"><channel><title><![CDATA[volyx]]></title><description><![CDATA[Все что в башне]]></description><link>http://b.wndlust.ru/</link><generator>Ghost 0.7</generator><lastBuildDate>Sat, 12 Mar 2016 22:29:29 GMT</lastBuildDate><atom:link href="http://b.wndlust.ru/rss/" rel="self" type="application/rss+xml"/><ttl>60</ttl><item><title><![CDATA[Мозголомка-2]]></title><description><![CDATA[<h4 id="">Задание</h4>
+<rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0" xmlns:media="http://search.yahoo.com/mrss/"><channel><title><![CDATA[volyx]]></title><description><![CDATA[Все что в башне]]></description><link>http://b.wndlust.ru/</link><generator>Ghost 0.7</generator><lastBuildDate>Sat, 12 Mar 2016 22:41:03 GMT</lastBuildDate><atom:link href="http://b.wndlust.ru/rss/" rel="self" type="application/rss+xml"/><ttl>60</ttl><item><title><![CDATA[Мозголомка-2]]></title><description><![CDATA[<h4 id="">Задание</h4>
 
 <p>Написать функцию, переворачивающую строку без использования дополнительной памяти</p>
 
@@ -290,8 +290,6 @@ deleteNode(b);
 
 <p>SAAS  сервисы придерживаются примерно такого же пути. Они пытаются решать одну конкретную задачу. И чем меньше, тем лучше. Лучше и для самих разработчиков приложения - они могут сконцентрироваться на более мелкой проблеме, и для тех кто ищет решение своей проблемы.</p>]]></content:encoded></item><item><title><![CDATA[По буграм]]></title><description><![CDATA[<p>Вернулся с Красной Поляны, скоро будет видеоотчет. Много проблем было со спусками со склонов с буграми. В этих видео рассказывается о видах спуска с таких склонов.</p>
 
-<hr>
-
 <p>Считывать бугры и планировать траекторию. Заезжая на один из, взглядом находить следующий и готовиться к нему.</p>
 
 <div class="pull-right">Часть 1</div> 
@@ -299,8 +297,6 @@ deleteNode(b);
 <iframe width="560" height="315" src="https://www.youtube.com/embed/DUlYznYkEyw?rel=0" frameborder="0" allowfullscreen></iframe>
 
 <p>Для начала натренируйте повороты разного радиуса.</p>]]></description><link>http://b.wndlust.ru/po-bughram/</link><guid isPermaLink="false">af4777b6-05ea-494a-bcf4-8997de8a9f7e</guid><category><![CDATA[горнолыжка]]></category><dc:creator><![CDATA[volyx]]></dc:creator><pubDate>Mon, 29 Feb 2016 10:18:01 GMT</pubDate><content:encoded><![CDATA[<p>Вернулся с Красной Поляны, скоро будет видеоотчет. Много проблем было со спусками со склонов с буграми. В этих видео рассказывается о видах спуска с таких склонов.</p>
-
-<hr>
 
 <p>Считывать бугры и планировать траекторию. Заезжая на один из, взглядом находить следующий и готовиться к нему.</p>
 
