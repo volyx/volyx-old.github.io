@@ -1,0 +1,308 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+
+    <title>Треугольник Паскаля и вероятность</title>
+
+    <meta name="HandheldFriendly" content="True">
+    <meta name="MobileOptimized" content="320">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+    <meta name="description" content="">
+
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:title" content="Треугольник Паскаля и вероятность">
+    <meta name="twitter:description" content="">
+
+    <meta property="og:type" content="article">
+    <meta property="og:title" content="Треугольник Паскаля и вероятность">
+    <meta property="og:description" content="">
+
+    <meta name="twitter:site" content="@volyx">
+
+<meta name="twitter:creator" content="@volyx">
+
+<meta name="google-site-verification" content="KDGxvAiglVyBe5S3ML-80R1R4nZJ9w_J_qQTMDLBlrw">
+
+<meta property="fb:admins" content="">
+
+    <link href="../favicon.ico" rel="shortcut icon" type="image/x-icon">
+    <link href="../apple-touch-icon-precomposed.png" rel="apple-touch-icon">
+
+    <link href="http://fonts.googleapis.com/" rel="dns-prefetch">
+    <link href="http://fonts.googleapis.com/css?family=Droid+Serif:400,700,400italic|Open+Sans:700,400&amp;subset=latin,latin-ext" rel="stylesheet">
+
+    <link rel="stylesheet" href="../assets/css/main.min.css?v=eef2c5451c"/>
+
+<link rel="stylesheet" href="../assets/css/custom.css?v=eef2c5451c"/>   
+ <script type="text/javascript" src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>  
+
+    <script type="text/javascript">
+      var ga_ua = 'UA-52030708-2';
+
+var disqus_shortname = 'b-wndlust';
+
+var enable_pjax = true;
+
+      // Pace Options
+      // ==============
+      window.paceOptions = {
+        catchupTime: 100,
+        minTime: 100,
+        elements: false,
+        restartOnRequestAfter: 500,
+        startOnPageLoad: false
+      }
+
+      // Ghostium Globals
+      // ==============
+      window.GHOSTIUM = {};
+      GHOSTIUM.haveGA = typeof ga_ua !== 'undefined' && ga_ua !== 'UA-XXXXX-X';
+      GHOSTIUM.haveDisqus = typeof disqus_shortname !== 'undefined' && disqus_shortname !== 'example';
+      GHOSTIUM.enablePjax = typeof enable_pjax !== 'undefined' ? enable_pjax : true;
+    </script>
+
+    <script src="../assets/js/head-scripts.min.js?v=eef2c5451c"></script>
+
+    <link rel="canonical" href="http://b.wndlust.ru/trieugholnik-paskalia-i-vieroiatnost/" />
+    <meta name="referrer" content="origin" />
+    
+    <meta property="og:site_name" content="volyx" />
+    <meta property="og:type" content="article" />
+    <meta property="og:title" content="Треугольник Паскаля и вероятность" />
+    <meta property="og:description" content="Вы знали, что с помощью треугольника Паскаля можно рассчитать количество сочетаний? Да, тех самых непонятных сочетаний из теории вероятности. Например, сколькими способами можно выбрать 3 школьников из 10. Допустим, физрук зашел в класс, и как обычно решил забрать трёх крепеньких..." />
+    <meta property="og:url" content="http://b.wndlust.ru/trieugholnik-paskalia-i-vieroiatnost/" />
+    <meta property="og:image" content="http://b.wndlust.ru/content/images/2015/12/5.jpg" />
+    <meta property="article:published_time" content="2015-12-21T08:09:18.265Z" />
+    <meta property="article:modified_time" content="2015-12-21T08:48:19.851Z" />
+    
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="Треугольник Паскаля и вероятность" />
+    <meta name="twitter:description" content="Вы знали, что с помощью треугольника Паскаля можно рассчитать количество сочетаний? Да, тех самых непонятных сочетаний из теории вероятности. Например, сколькими способами можно выбрать 3 школьников из 10. Допустим, физрук зашел в класс, и как обычно решил забрать трёх крепеньких..." />
+    <meta name="twitter:url" content="http://b.wndlust.ru/trieugholnik-paskalia-i-vieroiatnost/" />
+    <meta name="twitter:image:src" content="http://b.wndlust.ru/content/images/2015/12/5.jpg" />
+    
+    <script type="application/ld+json">
+{
+    "@context": "http://schema.org",
+    "@type": "Article",
+    "publisher": "volyx",
+    "author": {
+        "@type": "Person",
+        "name": "volyx",
+        "image": "//www.gravatar.com/avatar/4cfed3eb20c4ee99b3997cb676e24e9c?s=250&d=mm&r=x",
+        "url": "http://b.wndlust.ru/author/volyx",
+        "sameAs": null,
+        "description": null
+    },
+    "headline": "Треугольник Паскаля и вероятность",
+    "url": "http://b.wndlust.ru/trieugholnik-paskalia-i-vieroiatnost/",
+    "datePublished": "2015-12-21T08:09:18.265Z",
+    "dateModified": "2015-12-21T08:48:19.851Z",
+    "image": "http://b.wndlust.ru/content/images/2015/12/5.jpg",
+    "description": "Вы знали, что с помощью треугольника Паскаля можно рассчитать количество сочетаний? Да, тех самых непонятных сочетаний из теории вероятности. Например, сколькими способами можно выбрать 3 школьников из 10. Допустим, физрук зашел в класс, и как обычно решил забрать трёх крепеньких..."
+}
+    </script>
+
+    <meta name="generator" content="Ghost 0.7" />
+    <link rel="alternate" type="application/rss+xml" title="volyx" href="http://b.wndlust.ru/rss/" />
+  </head>
+  <body class="post-template">
+
+    <a href="../index.html" data-action="open-drawer" id="drawer-button" class="drawer-button">
+	<i class="fa fa-bars"></i>
+<a>
+<nav tabindex="-1" class="drawer">
+  <div class="drawer-container">
+    <!--.drawer-search(role="search")-->
+    <ul role="navigation" class="drawer-list">
+      
+<li class="drawer-list-item">
+  <a href="../index.html" data-pjax>
+    <i class="fa fa-home"></i>Home
+  </a>
+</li>
+<li class="drawer-list-item">
+  <a href="http://b.wndlust.ru/rss/">
+    <i class="fa fa-rss"></i>Subscribe to Feed
+  </a>
+</li>
+<li class="drawer-list-divider"></li>
+<li class="drawer-list-item drawer-list-title">
+  Follow me
+</li>
+<li class="drawer-list-item">
+  <a href="http://twitter.com" target="_blank">
+    <i class="fa fa-twitter"></i>Twitter
+  </a>
+</li>
+<li class="drawer-list-item">
+  <a href="http://github.com" target="_blank">
+    <i class="fa fa-github"></i>Github
+  </a>
+</li>
+    </ul>
+  </div>
+</nav>
+
+    <div class="drawer-overlay"></div>
+    <main id="container" role="main" class="container">
+      <div class="surface">
+        <div class="surface-container">
+          <div data-pjax-container class="content">
+            
+<section class="wrapper wrapper-post">
+  <div class="wrapper-container">
+    <article itemscope itemtype="http://schema.org/BlogPosting" role="article" class="post post">
+        <section class="post-container">
+          <header class="post-header">
+            <ul class="post-meta-list">
+              <li class="post-meta-item">
+                <time datetime="2015-12-21" itemprop="datePublished">
+                  3 months ago
+                </time>
+              </li>
+              <li class="post-meta-item">
+                <a href="index.html#disqus_thread" data-disqus-identifier="22">Comments</a>
+              </li>
+            </ul>
+            <h1 itemprop="name headline" class="post-title"><a href="index.html" itemprop="url" data-pjax title="Треугольник Паскаля и вероятность">Треугольник Паскаля и вероятность</a></h1>
+            <!--h2 itemprop="about" class="post-subtitle"></h2-->
+          </header>
+          <aside class="post-side">
+            <div class="post-author">
+                <a href="index.html" class="post-author-avatar">
+                  <img src="http://www.gravatar.com/avatar/4cfed3eb20c4ee99b3997cb676e24e9c?s=250&amp;d=mm&amp;r=x" alt="volyx">
+                </a>
+              <div class="post-author-info">
+                <a href="index.html" class="post-author-name">
+                  volyx
+                </a>
+                <p class="post-author-bio"></p>
+              </div>
+            </div>
+          </aside>
+          <div itemprop="articleBody" class="post-body">
+            <p>Вы знали, что с помощью треугольника Паскаля можно рассчитать количество сочетаний?
+Да, тех самых непонятных сочетаний из теории вероятности.</p>
+
+<p>Например, сколькими способами можно выбрать 3 школьников из 10.</p>
+
+<p>Допустим, физрук зашел в класс, и как обычно решил забрать трёх крепеньких мальчиков. 
+Всего в классе 10 мальчиков. Ему важна последовательность этих мальчиков.</p>
+
+<p>Если он выберет Петрова, Иванова, Сидорова, то этот способ будет отличаться от Сидорова, Петрова, Иванова.
+Для этого нам потребуется треугольник Паскаля.</p>
+
+<p><img src="../content/images/2015/12/pascal.png" alt="" /></p>
+
+<p>Нас интересует 10 ряд. И в нём четвёртое число.</p>
+
+<p>Ответ: 120. </p>
+
+<p>По-другому треугольник Паскаля можно записать вот так:</p>
+
+<p><img src="../content/images/2015/12/Pask3.jpg" alt="" /></p>
+
+<p>Правильно, ведь на самом деле треугольник Паскаля состоит из сочетаний. 
+И можно запросто проверить по формуле сочетаний.</p>
+
+<p><img src="../content/images/2015/12/CodeCogsEqn-1.gif" alt="" /></p>
+
+<p>Значит, нам нужно выбрать из n k сочетаний. Для нашего примера n=10 k=3.</p>
+
+<p><img src="../content/images/2015/12/CodeCogsEqn.gif" alt="" /></p>
+          </div>
+          <footer class="post-footer">
+            <div itemprop="author" itemscope itemtype="http://schema.org/Person" class="post-author">
+                <a href="index.html" class="post-author-avatar">
+                  <img itemprop="image" src="http://www.gravatar.com/avatar/4cfed3eb20c4ee99b3997cb676e24e9c?s=250&amp;d=mm&amp;r=x" alt="volyx">
+                </a>
+              <div class="post-author-info">
+                <h4 class="post-footer-heading">Written By</h4>
+                <a href="index.html" itemprop="url" class="post-author-name">
+                  <span itemprop="name">volyx</span>
+                </a>
+                <p itemprop="description" class="post-author-bio"></p>
+                <p class="post-info">
+                  <b class="post-info-title">Published on</b>
+                  <time class="post-date">December 21, 2015</time>
+                </p>
+              </div>
+            </div>
+            <div class="post-social">
+              <h4 class="post-footer-heading">Spread the word</h4>
+              <a href="index.html#" data-action="share-twitter"><i class="fa fa-fw fa-lg fa-twitter"></i></a>
+              <a href="index.html#" data-action="share-facebook"><i class="fa fa-fw fa-lg fa-facebook"></i></a>
+              <a href="index.html#" data-action="share-gplus"><i class="fa fa-fw fa-lg fa-google-plus"></i></a>
+            </div>
+          </footer>
+        </section>
+      <section itemprop="comment" class="post-comments">
+        <div id="disqus_thread"></div>
+      </section>
+    </article>
+
+    <footer role="contentinfo" class="footer">
+  <p><small>© 2016. All Rights Reserved.</small></p>
+  <p><small><a href="http://ghostium.oswaldoacauan.com/" target="_blank">Ghostium Theme</a> by <a href="http://twitter.com/oswaldoacauan" target="_blank">@oswaldoacauan</a></small></p>
+  <p><small>Proudly published with <a href="http://ghost.org" target="_blank">Ghost</a></small></p>
+</footer>
+  </div>
+</section>
+
+<script type="text/javascript">
+  if(GHOSTIUM.haveDisqus) {
+    var disqus_identifier = '22';
+
+    if(typeof DISQUS !== 'object') {
+      (function () {
+      var s = document.createElement('script'); s.async = true;
+      s.type = 'text/javascript';
+      s.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+      (document.getElementsByTagName('HEAD')[0] || document.getElementsByTagName('BODY')[0]).appendChild(s);
+      }());
+    }
+  } else {
+    document.querySelector('.post-comments').remove();
+  }
+</script>
+
+          </div>
+        </div>
+      </div>
+    </main>
+
+    
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>	
+	
+    <script src="../assets/js/foot-scripts.min.js?v=eef2c5451c"></script>
+
+    <script type="text/javascript">
+
+      if(GHOSTIUM.haveGA) {
+        (function(g,h,o,s,t,z){g.GoogleAnalyticsObject=s;g[s]||(g[s]=
+        function(){(g[s].q=g[s].q||[]).push(arguments)});g[s].s=+new Date;
+        t=h.createElement(o);z=h.getElementsByTagName(o)[0];
+        t.src='//www.google-analytics.com/analytics.js';
+        z.parentNode.insertBefore(t,z)}(window,document,'script','ga'));
+        ga('create',ga_ua);ga('send','pageview');
+      }
+
+      if(GHOSTIUM.haveDisqus) {
+        (function () {
+        var s = document.createElement('script'); s.async = true;
+        s.type = 'text/javascript';
+        s.src = '//' + disqus_shortname + '.disqus.com/count.js';
+        (document.getElementsByTagName('HEAD')[0] || document.getElementsByTagName('BODY')[0]).appendChild(s);
+        }());
+      }
+    </script>
+  </body>
+</html>

@@ -1,0 +1,3 @@
+User-agent: *
+Sitemap: http://b.wndlust.ru/sitemap.xml
+Disallow: /ghost/

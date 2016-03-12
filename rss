@@ -1,0 +1,811 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0" xmlns:media="http://search.yahoo.com/mrss/"><channel><title><![CDATA[volyx]]></title><description><![CDATA[Все что в башне]]></description><link>http://b.wndlust.ru/</link><generator>Ghost 0.7</generator><lastBuildDate>Sat, 12 Mar 2016 22:29:29 GMT</lastBuildDate><atom:link href="http://b.wndlust.ru/rss/" rel="self" type="application/rss+xml"/><ttl>60</ttl><item><title><![CDATA[Мозголомка-2]]></title><description><![CDATA[<h4 id="">Задание</h4>
+
+<p>Написать функцию, переворачивающую строку без использования дополнительной памяти</p>
+
+<hr>
+
+<h3 id="">Решение</h3>
+
+<p>Мы будем менять первый и последний элемент, затем второй и второй с конца, и так далее пока не достигнем середины.</p>
+
+<pre><code class="language-java">  public String reverse(String str) {
+
+    char[] strChars = str.toCharArray();
+
+    int startIndex = 0;
+    int endIndex = strChars.length - 1;
+
+    while (startIndex</code></pre>]]></description><link>http://b.wndlust.ru/mozgholomka-2/</link><guid isPermaLink="false">3b2d16ab-baee-4f34-8da3-03afbf05d333</guid><dc:creator><![CDATA[volyx]]></dc:creator><pubDate>Thu, 10 Mar 2016 12:54:35 GMT</pubDate><content:encoded><![CDATA[<h4 id="">Задание</h4>
+
+<p>Написать функцию, переворачивающую строку без использования дополнительной памяти</p>
+
+<hr>
+
+<h3 id="">Решение</h3>
+
+<p>Мы будем менять первый и последний элемент, затем второй и второй с конца, и так далее пока не достигнем середины.</p>
+
+<pre><code class="language-java">  public String reverse(String str) {
+
+    char[] strChars = str.toCharArray();
+
+    int startIndex = 0;
+    int endIndex = strChars.length - 1;
+
+    while (startIndex &lt; endIndex) {
+
+        // swap characters
+        char temp = strChars[startIndex];
+        strChars[startIndex] = strChars[endIndex];
+        strChars[endIndex] = temp;
+
+        // move towards middle
+        startIndex++;
+        endIndex--;
+    }
+
+    return new String(strChars);
+}
+</code></pre>
+
+<p>Сложность
+<code>O(n)</code> по времени и <code>O(1)</code> по доп. месту.</p>
+
+<hr>  
+
+<p><a href="https://www.interviewcake.com/question/javascript/reverse-string-in-place">https://www.interviewcake.com/question/javascript/reverse-string-in-place</a></p>]]></content:encoded></item><item><title><![CDATA[12x12]]></title><description><![CDATA[<p>12x12 - проект Британской высшей школы дизайна в Москве. Создатели описывают ее так:</p>
+
+<blockquote>
+  <p>"12x12" — это уникальное событие с оригинальным форматом общения с аудиторией.</p>
+  
+  <p>Мы пригласили 12 самых интересных специалистов в области дизайна и дали каждому по 12 минут для того, чтобы они смогли поделиться самым важным — опытом!</p>
+</blockquote>
+
+<h3 id="">Ограничения</h3>
+
+<p>В произведениях</p>]]></description><link>http://b.wndlust.ru/12x12/</link><guid isPermaLink="false">837220ae-5f0f-4bec-90fe-27e8bb71b609</guid><dc:creator><![CDATA[volyx]]></dc:creator><pubDate>Wed, 09 Mar 2016 16:17:55 GMT</pubDate><content:encoded><![CDATA[<p>12x12 - проект Британской высшей школы дизайна в Москве. Создатели описывают ее так:</p>
+
+<blockquote>
+  <p>"12x12" — это уникальное событие с оригинальным форматом общения с аудиторией.</p>
+  
+  <p>Мы пригласили 12 самых интересных специалистов в области дизайна и дали каждому по 12 минут для того, чтобы они смогли поделиться самым важным — опытом!</p>
+</blockquote>
+
+<h3 id="">Ограничения</h3>
+
+<p>В произведениях Довлатова все слова в предложении начинаются на разные буквы.</p>
+
+<p>Не возможно решить уравнение, не имея ограничений. Частное решение есть всегда. Непреодолимых ограничений нет.</p>
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/M_ir8hgBSOc?rel=0" frameborder="0" allowfullscreen></iframe>
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/pQZAIrWuHHM?rel=0" frameborder="0" allowfullscreen></iframe>
+
+<hr>
+
+<h3 id="">Шерховатости в дизайне</h3>
+
+<p>Человек любит шерховатости, не любит когда все гладенько, ровненько.</p>
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/otf7bGP5ShM?rel=0" frameborder="0" allowfullscreen></iframe>
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/M_7JjYL-55Q?rel=0" frameborder="0" allowfullscreen></iframe>]]></content:encoded></item><item><title><![CDATA[Пьяные в БДТ]]></title><description><![CDATA[<p><img src="https://media.teatrall.ru/photos/photo/f350c52eaa2ae293d797b573e656bb36.jpg" alt=""></p>
+
+<p>Первая возникшая мысль - это то, что за всю постановку я услышал больше ругательных слов, чем за все предыдущие спектакли, помноженные на 10. </p>
+
+<blockquote class="twitter-tweet" data-lang="ru"><p lang="ru" dir="ltr">Сходили на <a href="https://twitter.com/hashtag/%D0%BF%D1%8C%D1%8F%D0%BD%D1%8B%D0%B5?src=hash">#пьяные</a> в <a href="https://twitter.com/hashtag/%D0%B1%D0%B4%D1%82?src=hash">#бдт</a>. Очень много слов - гавно, дерьмо,ссать,дрочить,шлюха,жопа,херов. Вырывается на 1е место среди любимых спектаклей.</p>&mdash; Дима Волыхин (@volyx)</blockquote>]]></description><link>http://b.wndlust.ru/pianyie-v-bdt/</link><guid isPermaLink="false">72f66716-934d-4f1c-900c-3e1f93386710</guid><category><![CDATA[театрал]]></category><dc:creator><![CDATA[volyx]]></dc:creator><pubDate>Mon, 07 Mar 2016 21:53:55 GMT</pubDate><media:content url="https://media.teatrall.ru/photos/photo/f350c52eaa2ae293d797b573e656bb36.jpg" medium="image"/><content:encoded><![CDATA[<img src="https://media.teatrall.ru/photos/photo/f350c52eaa2ae293d797b573e656bb36.jpg" alt="Пьяные в БДТ"><p><img src="https://media.teatrall.ru/photos/photo/f350c52eaa2ae293d797b573e656bb36.jpg" alt="Пьяные в БДТ"></p>
+
+<p>Первая возникшая мысль - это то, что за всю постановку я услышал больше ругательных слов, чем за все предыдущие спектакли, помноженные на 10. </p>
+
+<blockquote class="twitter-tweet" data-lang="ru"><p lang="ru" dir="ltr">Сходили на <a href="https://twitter.com/hashtag/%D0%BF%D1%8C%D1%8F%D0%BD%D1%8B%D0%B5?src=hash">#пьяные</a> в <a href="https://twitter.com/hashtag/%D0%B1%D0%B4%D1%82?src=hash">#бдт</a>. Очень много слов - гавно, дерьмо,ссать,дрочить,шлюха,жопа,херов. Вырывается на 1е место среди любимых спектаклей.</p>&mdash; Дима Волыхин (@volyx) <a href="https://twitter.com/volyx/status/706919598172585986">7 марта 2016 г.</a></blockquote>  
+
+<script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+<p>Даже слух начало резать, когда в сотый раз слышал вариацию на слово "гавно", "гавнище", "гавенный" и прочее. Скорее всего это вынужденная мера - попытка заменить более изощренные ругательства синонимами. Совсем ведь не убрать, иначе это будут не настоящие пьяные. Понимаю, почему сделали именно так, как сделали - не убрали, а заменили синонимами. Эмоциональный порыв-настрой передан - думаю это главное.</p>
+
+<p>После спектакля возникло желание прочитать ее в оригинале. Это хороший знак, видимо режиссеру удалось зацепить зрителя, меня так точно.</p>
+
+<p>"Пьяные" были написаны по европейскому заказу — специально для театра в Дюссельдорфе. Интересно, что вот так на заказ можно написать шедевр. Вырыпаев по праву занимает одно из мест лучших драматургов современности.</p>
+
+<p>Текст пьесы есть в журнале "Драматургия":</p>
+
+<ul>
+<li>Часть 1 <a href="http://drammaturgia.org/plays/32-ivan-vyrypaev-pyanye.html">http://drammaturgia.org/plays/32-ivan-vyrypaev-pyanye.html</a></li>
+<li>Часть 2 <a href="http://drammaturgia.org/33-ivan-vyrypaev-pyanye-str-2.html">http://drammaturgia.org/33-ivan-vyrypaev-pyanye-str-2.html</a></li>
+</ul>
+
+<p>Да, есть такой журнал, и в нем печатают пьесы. Аж 6 номеров выпущено. </p>
+
+<p>Приятно, что темы сильно связанны с сегодняшним днем. Это определенно пьеса наших лет, нашей эпохи. Там есть многое из насущного: и про веганов, и про проституток, но есть и вечные темы про измены, про болезнь, про бессмертие, про бога.</p>
+
+<p>Цитаты:</p>
+
+<blockquote>
+  <p>Через пьяных говорит Господь</p>
+</blockquote>
+
+<p>...</p>
+
+<blockquote>
+  <p>Я Господь Бог, приятель. И ты Господь Бог, Карл. Понимаешь, теперь ты понимаешь, дорогой мой?</p>
+</blockquote>
+
+<p>Для тех, кто больше любит слушать-смотреть есть читка пьесы:</p>
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/uJZsdK9J79U?rel=0" frameborder="0" allowfullscreen></iframe>
+
+<p>Ролик про постановку</p>
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/c85I55ilOIs?rel=0" frameborder="0" allowfullscreen></iframe>]]></content:encoded></item><item><title><![CDATA[Мозголомка-1]]></title><description><![CDATA[<h4 id="">Задача</h4>
+
+<p>Имея ссылку на узел удалить его из односвязного списка. Начальный код такой:</p>
+
+<pre><code class="language-java">  public static class LinkedListNode {
+
+    public String value;
+    public LinkedListNode next;
+
+    public LinkedListNode(String value) {
+        this.value = value;
+    }
+}
+
+LinkedListNode a = new LinkedListNode("A");  
+LinkedListNode b = new LinkedListNode("B");  
+LinkedListNode c = new LinkedListNode("C");
+
+a.next = b;  
+b.next</code></pre>]]></description><link>http://b.wndlust.ru/mozgolomka-1/</link><guid isPermaLink="false">b08dc6bd-4b6d-4413-b053-9ee7d790389a</guid><category><![CDATA[mozgolomka]]></category><dc:creator><![CDATA[volyx]]></dc:creator><pubDate>Sun, 06 Mar 2016 18:08:48 GMT</pubDate><content:encoded><![CDATA[<h4 id="">Задача</h4>
+
+<p>Имея ссылку на узел удалить его из односвязного списка. Начальный код такой:</p>
+
+<pre><code class="language-java">  public static class LinkedListNode {
+
+    public String value;
+    public LinkedListNode next;
+
+    public LinkedListNode(String value) {
+        this.value = value;
+    }
+}
+
+LinkedListNode a = new LinkedListNode("A");  
+LinkedListNode b = new LinkedListNode("B");  
+LinkedListNode c = new LinkedListNode("C");
+
+a.next = b;  
+b.next = c;
+
+deleteNode(b);  
+</code></pre>
+
+<h4 id="">Забегая вперед</h4>
+
+<p>Мы сможем сделать это за <em>O(1)</em> по сложности и по <em>O(1)</em> по памяти! Ответ будет хитрый и будет работать не на всех входных данных...</p>
+
+<h4 id="">Размышляем</h4>
+
+<p>Первое, что приходит в голову - это пройтись по всем узлам списка с начала до искомого узла. Но по условию у нас нет головного узла, у нас есть только ссылка на удаляемый узел.</p>
+
+<p>Подождите-ка, как мы вообще удалим узел, если у нас нет ссылки на первый узел?</p>
+
+<p>Мы сделаем так, что указатель предыдущего узла пропустит удаляемый узел, и будет указывать на узел, следующий за удаляемым. Так узлы выглядят <strong>до</strong> удаления: </p>
+
+<p><svg width="455" height="155"><rect x="80" y="45" width="68" height="95" rx="4" ry="4" fill="#E3E3E3" stroke="#777" stroke-width="0"/><rect x="193" y="45" width="68" height="95" rx="4" ry="4" fill="rgba(91, 192, 222, 0.6)" stroke="#777" stroke-width="0"/><rect x="306" y="45" width="68" height="95" rx="4" ry="4" fill="#E3E3E3" stroke="#777" stroke-width="0"/><rect x="86.5" y="51.5" width="55" height="51.75" rx="2" ry="2" fill="white" stroke="#777" stroke-width="1"/><rect x="199.5" y="51.5" width="55" height="51.75" rx="2" ry="2" fill="white" stroke="#777" stroke-width="1"/><rect x="312.5" y="51.5" width="55" height="51.75" rx="2" ry="2" fill="white" stroke="#777" stroke-width="1"/><rect x="86.5" y="109.8" width="55" height="23.75" rx="2" ry="2" fill="white" stroke="#777" stroke-width="1"/><rect x="199.5" y="109.8" width="55" height="23.75" rx="2" ry="2" fill="white" stroke="#777" stroke-width="1"/><rect x="312.5" y="109.8" width="55" height="23.75" rx="2" ry="2" fill="white" stroke="#777" stroke-width="1"/><polygon points="184.5,130.125 193,121.625 184.5,113.125" fill="white" stroke="#777" stroke-width="1"/><polygon points="297.5,130.125 306,121.625 297.5,113.125" fill="white" stroke="#777" stroke-width="1"/><polygon points="410.5,130.125 419,121.625 410.5,113.125" fill="white" stroke="#777" stroke-width="1"/><rect x="140.5" y="117.6" width="45.5" height="8" rx="0" ry="0" fill="white" stroke="white" stroke-width="1"/><rect x="253.5" y="117.6" width="45.5" height="8" rx="0" ry="0" fill="white" stroke="white" stroke-width="1"/><rect x="366.5" y="117.6" width="45.5" height="8" rx="0" ry="0" fill="white" stroke="white" stroke-width="1"/><line x1="141" y1="117.6" x2="185" y2="117.6" stroke="#555" stroke-width="1"/><line x1="141" y1="125.6" x2="185" y2="125.6" stroke="#555" stroke-width="1"/><line x1="254" y1="117.6" x2="298" y2="117.6" stroke="#555" stroke-width="1"/><line x1="254" y1="125.6" x2="298" y2="125.6" stroke="#555" stroke-width="1"/><line x1="367" y1="117.6" x2="411" y2="117.6" stroke="#555" stroke-width="1"/><line x1="367" y1="125.6" x2="411" y2="125.6" stroke="#555" stroke-width="1"/><text x="114" y="64.5" font-weight="normal" font-size="9.5px" fill="#777" text-anchor="middle">VALUE</text><text x="227" y="64.5" font-weight="normal" font-size="9.5px" fill="#777" text-anchor="middle">VALUE</text><text x="340" y="64.5" font-weight="normal" font-size="9.5px" fill="#777" text-anchor="middle">VALUE</text><text x="114" y="124.9" font-weight="normal" font-size="9.5px" fill="#777" text-anchor="middle">NEXT</text><text x="227" y="124.9" font-weight="normal" font-size="9.5px" fill="#777" text-anchor="middle">NEXT</text><text x="340" y="124.9" font-weight="normal" font-size="9.5px" fill="#777" text-anchor="middle">NEXT</text><text x="436" y="124.9" font-weight="normal" font-size="9.5px" fill="#777" text-anchor="middle">None</text><text x="114" y="90.5" font-weight="bold" font-size="23px" fill="rgba(91, 192, 222, 0.8)" text-anchor="middle">1</text><text x="227" y="90.5" font-weight="bold" font-size="23px" fill="rgba(91, 192, 222, 0.8)" text-anchor="middle">4</text><text x="340" y="90.5" font-weight="bold" font-size="23px" fill="rgba(91, 192, 222, 0.8)" text-anchor="middle">0</text><text x="227" y="22" font-weight="bold" font-size="9.5px" fill="#777" text-anchor="middle">Удаляемый</text><text x="227" y="35" font-weight="bold" font-size="9.5px" fill="#777" text-anchor="middle">узел</text></svg></p>
+
+<p>Так будут выглядеть узлы <strong>после</strong> удаления:</p>
+
+<p><svg width="455" height="180"><rect x="80" y="75" width="68" height="95" rx="4" ry="4" fill="#E3E3E3" stroke="#777" stroke-width="0"/><rect x="193" y="42" width="68" height="95" rx="4" ry="4" fill="rgba(91, 192, 222, 0.6)" stroke="#777" stroke-width="0"/><rect x="306" y="75" width="68" height="95" rx="4" ry="4" fill="#E3E3E3" stroke="#777" stroke-width="0"/><rect x="86.5" y="81.5" width="55" height="51.75" rx="2" ry="2" fill="white" stroke="#777" stroke-width="1"/><rect x="199.5" y="48.5" width="55" height="51.75" rx="2" ry="2" fill="white" stroke="#777" stroke-width="1"/><rect x="312.5" y="81.5" width="55" height="51.75" rx="2" ry="2" fill="white" stroke="#777" stroke-width="1"/><rect x="86.5" y="139.8" width="55" height="23.75" rx="2" ry="2" fill="white" stroke="#777" stroke-width="1"/><rect x="199.5" y="106.8" width="55" height="23.75" rx="2" ry="2" fill="white" stroke="#777" stroke-width="1"/><rect x="312.5" y="139.8" width="55" height="23.75" rx="2" ry="2" fill="white" stroke="#777" stroke-width="1"/><polygon points="297.5,160.125 306,151.625 297.5,143.125" fill="white" stroke="#777" stroke-width="1"/><polygon points="297.5,127.125 306,118.625 297.5,110.125" fill="white" stroke="#777" stroke-width="1"/><polygon points="410.5,160.125 419,151.625 410.5,143.125" fill="white" stroke="#777" stroke-width="1"/><rect x="140.5" y="147.6" width="158.5" height="8" rx="0" ry="0" fill="white" stroke="white" stroke-width="1"/><rect x="253.5" y="114.6" width="45.5" height="8" rx="0" ry="0" fill="white" stroke="white" stroke-width="1"/><rect x="366.5" y="147.6" width="45.5" height="8" rx="0" ry="0" fill="white" stroke="white" stroke-width="1"/><line x1="141" y1="147.6" x2="298" y2="147.6" stroke="#555" stroke-width="1"/><line x1="141" y1="155.6" x2="298" y2="155.6" stroke="#555" stroke-width="1"/><line x1="254" y1="114.6" x2="298" y2="114.6" stroke="#555" stroke-width="1"/><line x1="254" y1="122.6" x2="298" y2="122.6" stroke="#555" stroke-width="1"/><line x1="367" y1="147.6" x2="411" y2="147.6" stroke="#555" stroke-width="1"/><line x1="367" y1="155.6" x2="411" y2="155.6" stroke="#555" stroke-width="1"/><text x="114" y="94.5" font-weight="normal" font-size="9.5px" fill="#777" text-anchor="middle">VALUE</text><text x="227" y="61.5" font-weight="normal" font-size="9.5px" fill="#777" text-anchor="middle">VALUE</text><text x="340" y="94.5" font-weight="normal" font-size="9.5px" fill="#777" text-anchor="middle">VALUE</text><text x="114" y="154.9" font-weight="normal" font-size="9.5px" fill="#777" text-anchor="middle">NEXT</text><text x="227" y="121.9" font-weight="normal" font-size="9.5px" fill="#777" text-anchor="middle">NEXT</text><text x="340" y="154.9" font-weight="normal" font-size="9.5px" fill="#777" text-anchor="middle">NEXT</text><text x="436" y="154.9" font-weight="normal" font-size="9.5px" fill="#777" text-anchor="middle">None</text><text x="114" y="120.5" font-weight="bold" font-size="23px" fill="rgba(91, 192, 222, 0.8)" text-anchor="middle">1</text><text x="227" y="87.5" font-weight="bold" font-size="23px" fill="rgba(91, 192, 222, 0.8)" text-anchor="middle">4</text><text x="340" y="120.5" font-weight="bold" font-size="23px" fill="rgba(91, 192, 222, 0.8)" text-anchor="middle">0</text><text x="227" y="19" font-weight="bold" font-size="9.5px" fill="#777" text-anchor="middle">Удаляемый</text><text x="227" y="32" font-weight="bold" font-size="9.5px" fill="#777" text-anchor="middle">узел</text></svg></p>
+
+<p>Нам нужно как-то пропустить текущий узел и перейти к следующему узлу. Но у нас же нет доступа к предыдущему узлу!</p>
+
+<p>Что если кроме как перенаправлять указатель с предыдущего узла <strong>существует другой способ перепрыгнуть с предыдущего значения на следующий?</strong></p>
+
+<p>Что если мы изменим значение текущего узла вместо удаления его?</p>
+
+<h4 id="">Решение</h4>
+
+<p>Мы скопируем значение и указатель следующего узла в удаляемый узел. Получится, что предыдущий узел будет пропускать удаляемый узел и указывать на следующий узел.</p>
+
+<p>Так связный список выглядел до применения функции: </p>
+
+<p><svg width="520" height="135"><rect x="80" y="35" width="68" height="95" rx="4" ry="4" fill="#E3E3E3" stroke="#777" stroke-width="0"/><rect x="193" y="35" width="68" height="95" rx="4" ry="4" fill="rgba(91, 192, 222, 0.6)" stroke="#777" stroke-width="0"/><rect x="306" y="35" width="68" height="95" rx="4" ry="4" fill="#E3E3E3" stroke="#777" stroke-width="0"/><rect x="86.5" y="41.5" width="55" height="51.75" rx="2" ry="2" fill="white" stroke="#777" stroke-width="1"/><rect x="199.5" y="41.5" width="55" height="51.75" rx="2" ry="2" fill="white" stroke="#777" stroke-width="1"/><rect x="312.5" y="41.5" width="55" height="51.75" rx="2" ry="2" fill="white" stroke="#777" stroke-width="1"/><rect x="86.5" y="99.8" width="55" height="23.75" rx="2" ry="2" fill="white" stroke="#777" stroke-width="1"/><rect x="199.5" y="99.8" width="55" height="23.75" rx="2" ry="2" fill="white" stroke="#777" stroke-width="1"/><rect x="312.5" y="99.8" width="55" height="23.75" rx="2" ry="2" fill="white" stroke="#777" stroke-width="1"/><polygon points="184.5,120.125 193,111.625 184.5,103.125" fill="white" stroke="#777" stroke-width="1"/><polygon points="297.5,120.125 306,111.625 297.5,103.125" fill="white" stroke="#777" stroke-width="1"/><polygon points="410.5,120.125 419,111.625 410.5,103.125" fill="white" stroke="#777" stroke-width="1"/><rect x="140.5" y="107.6" width="45.5" height="8" rx="0" ry="0" fill="white" stroke="white" stroke-width="1"/><rect x="253.5" y="107.6" width="45.5" height="8" rx="0" ry="0" fill="white" stroke="white" stroke-width="1"/><rect x="366.5" y="107.6" width="45.5" height="8" rx="0" ry="0" fill="white" stroke="white" stroke-width="1"/><line x1="141" y1="107.6" x2="185" y2="107.6" stroke="#555" stroke-width="1"/><line x1="141" y1="115.6" x2="185" y2="115.6" stroke="#555" stroke-width="1"/><line x1="254" y1="107.6" x2="298" y2="107.6" stroke="#555" stroke-width="1"/><line x1="254" y1="115.6" x2="298" y2="115.6" stroke="#555" stroke-width="1"/><line x1="367" y1="107.6" x2="411" y2="107.6" stroke="#555" stroke-width="1"/><line x1="367" y1="115.6" x2="411" y2="115.6" stroke="#555" stroke-width="1"/><text x="114" y="54.5" font-weight="normal" font-size="9.5px" fill="#777" text-anchor="middle">VALUE</text><text x="227" y="54.5" font-weight="normal" font-size="9.5px" fill="#777" text-anchor="middle">VALUE</text><text x="340" y="54.5" font-weight="normal" font-size="9.5px" fill="#777" text-anchor="middle">VALUE</text><text x="114" y="114.9" font-weight="normal" font-size="9.5px" fill="#777" text-anchor="middle">NEXT</text><text x="227" y="114.9" font-weight="normal" font-size="9.5px" fill="#777" text-anchor="middle">NEXT</text><text x="340" y="114.9" font-weight="normal" font-size="9.5px" fill="#777" text-anchor="middle">NEXT</text><text x="436" y="114.9" font-weight="normal" font-size="9.5px" fill="#777" text-anchor="middle">None</text><text x="114" y="80.5" font-weight="bold" font-size="23px" fill="rgba(91, 192, 222, 0.8)" text-anchor="middle">3</text><text x="227" y="80.5" font-weight="bold" font-size="23px" fill="rgba(91, 192, 222, 0.8)" text-anchor="middle">8</text><text x="340" y="80.5" font-weight="bold" font-size="23px" fill="rgba(91, 192, 222, 0.8)" text-anchor="middle">2</text><text x="227" y="12" font-weight="bold" font-size="9.5px" fill="#777" text-anchor="middle">Удаляемый</text><text x="227" y="25" font-weight="bold" font-size="9.5px" fill="#777" text-anchor="middle">узел</text></svg></p>
+
+<p>После будет выгдядеть вот так:</p>
+
+<p><svg width="520" height="135"><rect x="80" y="35" width="68" height="95" rx="4" ry="4" fill="#E3E3E3" stroke="#777" stroke-width="0"/><rect x="193" y="35" width="68" height="95" rx="4" ry="4" fill="rgba(91, 192, 222, 0.6)" stroke="#777" stroke-width="0"/><rect x="366" y="35" width="68" height="95" rx="4" ry="4" fill="#E3E3E3" stroke="#777" stroke-width="0"/><rect x="86.5" y="41.5" width="55" height="51.75" rx="2" ry="2" fill="white" stroke="#777" stroke-width="1"/><rect x="199.5" y="41.5" width="55" height="51.75" rx="2" ry="2" fill="white" stroke="#777" stroke-width="1"/><rect x="372.5" y="41.5" width="55" height="51.75" rx="2" ry="2" fill="white" stroke="#777" stroke-width="1"/><rect x="86.5" y="99.8" width="55" height="23.75" rx="2" ry="2" fill="white" stroke="#777" stroke-width="1"/><rect x="199.5" y="99.8" width="55" height="23.75" rx="2" ry="2" fill="white" stroke="#777" stroke-width="1"/><rect x="372.5" y="99.8" width="55" height="23.75" rx="2" ry="2" fill="white" stroke="#777" stroke-width="1"/><polygon points="184.5,120.125 193,111.625 184.5,103.125" fill="white" stroke="#777" stroke-width="1"/><polygon points="297.5,120.125 306,111.625 297.5,103.125" fill="white" stroke="#777" stroke-width="1"/><polygon points="470.5,120.125 479,111.625 470.5,103.125" fill="white" stroke="#777" stroke-width="1"/><rect x="140.5" y="107.6" width="45.5" height="8" rx="0" ry="0" fill="white" stroke="white" stroke-width="1"/><rect x="253.5" y="107.6" width="45.5" height="8" rx="0" ry="0" fill="white" stroke="white" stroke-width="1"/><rect x="426.5" y="107.6" width="45.5" height="8" rx="0" ry="0" fill="white" stroke="white" stroke-width="1"/><line x1="141" y1="107.6" x2="185" y2="107.6" stroke="#555" stroke-width="1"/><line x1="141" y1="115.6" x2="185" y2="115.6" stroke="#555" stroke-width="1"/><line x1="254" y1="107.6" x2="298" y2="107.6" stroke="#555" stroke-width="1"/><line x1="254" y1="115.6" x2="298" y2="115.6" stroke="#555" stroke-width="1"/><line x1="427" y1="107.6" x2="471" y2="107.6" stroke="#555" stroke-width="1"/><line x1="427" y1="115.6" x2="471" y2="115.6" stroke="#555" stroke-width="1"/><text x="114" y="54.5" font-weight="normal" font-size="9.5px" fill="#777" text-anchor="middle">VALUE</text><text x="227" y="54.5" font-weight="normal" font-size="9.5px" fill="#777" text-anchor="middle">VALUE</text><text x="400" y="54.5" font-weight="normal" font-size="9.5px" fill="#777" text-anchor="middle">VALUE</text><text x="114" y="114.9" font-weight="normal" font-size="9.5px" fill="#777" text-anchor="middle">NEXT</text><text x="227" y="114.9" font-weight="normal" font-size="9.5px" fill="#777" text-anchor="middle">NEXT</text><text x="400" y="114.9" font-weight="normal" font-size="9.5px" fill="#777" text-anchor="middle">NEXT</text><text x="496" y="114.9" font-weight="normal" font-size="9.5px" fill="#777" text-anchor="middle">None</text><text x="323" y="114.9" font-weight="normal" font-size="9.5px" fill="#777" text-anchor="middle">None</text><text x="114" y="80.5" font-weight="bold" font-size="23px" fill="rgba(91, 192, 222, 0.8)" text-anchor="middle">3</text><text x="227" y="80.5" font-weight="bold" font-size="23px" fill="rgba(91, 192, 222, 0.8)" text-anchor="middle">2</text><text x="400" y="80.5" font-weight="bold" font-size="23px" fill="rgba(91, 192, 222, 0.8)" text-anchor="middle">2</text><text x="227" y="12" font-weight="bold" font-size="9.5px" fill="#777" text-anchor="middle">Удаляемый</text><text x="227" y="25" font-weight="bold" font-size="9.5px" fill="#777" text-anchor="middle">узел</text></svg></p>
+
+<p>В некоторых языках, например в С нам потребовалось бы руками удалять скопированный узел. Но в Java есть сборщик мусора, который сам позаботится об этом.</p>
+
+<pre><code class="language-java">  public void deleteNode(LinkedListNode nodeToDelete) {
+
+    // get the input node's next node, the one we want to skip to
+    LinkedListNode nextNode = nodeToDelete.next;
+
+    if (nextNode != null) {
+
+        // replace the input node's value and pointer with the next
+        // node's value and pointer. the previous node now effectively
+        // skips over the input node
+        nodeToDelete.value = nextNode.value;
+        nodeToDelete.next  = nextNode.next;
+
+    } else {
+
+        // eep, we're trying to delete the last node!
+        throw new IllegalArgumentException("Can't delete the last node with this method!");
+    }
+}
+</code></pre>
+
+<p>Есть две проблемы в нашем решении:</p>
+
+<ul>
+<li><p><strong>Первое, наша функция не работает в случае удаления последнего элемента.</strong> Мы можем поменять значение удаляемого элемента на <code>null</code>, но указатель предыдущего узла все также будет ссылаться на этот узел, хоть и со значением <code>null</code>. Мы конечно можем трактовать узлы со значение <code>null</code> как удаленные и останавливать поиск при нахождении такого узла. </p></li>
+<li><p><strong>Второе,</strong> метод может выдавать неожиданные результаты. Возьмем такой код:</p></li>
+</ul>
+
+<pre><code class="language-java">LinkedListNode a = new LinkedListNode(3);  
+LinkedListNode b = new LinkedListNode(8);  
+LinkedListNode c = new LinkedListNode(2);
+
+a.next = b;  
+b.next = c;
+
+deleteNode(b);  
+</code></pre>
+
+<p>Есть несколько побочных эффектов:</p>
+
+<ul>
+<li><strong>Не существует эффективного способа переписать ссылки с входящего узла на следующий узел.</strong> Например, мы "удалили" узел который хранит ссылку на переменную <code>b</code>, но на самом деле, мы лишь присваиваем узлу новое значение(2) и новую ссылку <code>next</code>. Если мы имеем другой указатель на <code>b</code> откуда-нибудь из другой части кода и мы предполагаем, что объект имеет свое старое значение(8), что может привести к багам.</li>
+<li><strong>Если существуют указатели на следующий узел за входящим узлом, то эти указатели будут указывать на "висячие узлы"</strong> (узел, который не достижим из связного списка). В примере выше, узел <code>c</code> будет "подвешан". Если мы поменяем <code>c</code>, мы никогда не достигнем это новое значение, двигаясь с головы связного списка до хвоста.</li>
+</ul>
+
+<h4 id="">Сложность</h4>
+
+<p><code>O(1)</code> по времени и <code>O(1)</code> по дополнительной памяти.</p>
+
+<h4 id="">Источник</h4>
+
+<p><a href="https://www.interviewcake.com/question/java/delete-node">https://www.interviewcake.com/question/java/delete-node</a></p>]]></content:encoded></item><item><title><![CDATA[Путь unix в SAAS сервисах]]></title><description><![CDATA[<p>Вы помните основной концепт unix- подобных систем и утилит?
+Программа должна быть маленькой и решать строго одну задачу. Это моя интерпретация. </p>
+
+<p>Вот исходная: </p>
+
+<ul>
+<li>Пишите программы, которые делают что-то одно и делают это хорошо. </li>
+<li>Пишите программы, которые бы работали вместе. </li>
+<li>Пишите программы, которые бы поддерживали текстовые потоки, поскольку это универсальный интерфейс»</li></ul>]]></description><link>http://b.wndlust.ru/put-unix-v-saas-siervisakh/</link><guid isPermaLink="false">f5e48ce6-f7ec-4a59-b6a2-927312884961</guid><dc:creator><![CDATA[volyx]]></dc:creator><pubDate>Mon, 29 Feb 2016 19:40:36 GMT</pubDate><content:encoded><![CDATA[<p>Вы помните основной концепт unix- подобных систем и утилит?
+Программа должна быть маленькой и решать строго одну задачу. Это моя интерпретация. </p>
+
+<p>Вот исходная: </p>
+
+<ul>
+<li>Пишите программы, которые делают что-то одно и делают это хорошо. </li>
+<li>Пишите программы, которые бы работали вместе. </li>
+<li>Пишите программы, которые бы поддерживали текстовые потоки, поскольку это универсальный интерфейс».</li>
+</ul>
+
+<p>SAAS  сервисы придерживаются примерно такого же пути. Они пытаются решать одну конкретную задачу. И чем меньше, тем лучше. Лучше и для самих разработчиков приложения - они могут сконцентрироваться на более мелкой проблеме, и для тех кто ищет решение своей проблемы.</p>]]></content:encoded></item><item><title><![CDATA[По буграм]]></title><description><![CDATA[<p>Вернулся с Красной Поляны, скоро будет видеоотчет. Много проблем было со спусками со склонов с буграми. В этих видео рассказывается о видах спуска с таких склонов.</p>
+
+<hr>
+
+<p>Считывать бугры и планировать траекторию. Заезжая на один из, взглядом находить следующий и готовиться к нему.</p>
+
+<div class="pull-right">Часть 1</div> 
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/DUlYznYkEyw?rel=0" frameborder="0" allowfullscreen></iframe>
+
+<p>Для начала натренируйте повороты разного радиуса.</p>]]></description><link>http://b.wndlust.ru/po-bughram/</link><guid isPermaLink="false">af4777b6-05ea-494a-bcf4-8997de8a9f7e</guid><category><![CDATA[горнолыжка]]></category><dc:creator><![CDATA[volyx]]></dc:creator><pubDate>Mon, 29 Feb 2016 10:18:01 GMT</pubDate><content:encoded><![CDATA[<p>Вернулся с Красной Поляны, скоро будет видеоотчет. Много проблем было со спусками со склонов с буграми. В этих видео рассказывается о видах спуска с таких склонов.</p>
+
+<hr>
+
+<p>Считывать бугры и планировать траекторию. Заезжая на один из, взглядом находить следующий и готовиться к нему.</p>
+
+<div class="pull-right">Часть 1</div> 
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/DUlYznYkEyw?rel=0" frameborder="0" allowfullscreen></iframe>
+
+<p>Для начала натренируйте повороты разного радиуса. Они должны быть круглыми, и плавно переходящими из одного в другой. Так вы будете готовы к различным траекториям на склоне.</p>
+
+<p>Постройте зрительно прямую линию вниз склона и старайтесь держать ее глазами, чтобы повороты были максимально симметричными. Пробуйте постепенно уменьшать, а затем увеличивать радиус, не обрывая поворот.</p>
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/QsNsWINzqoQ?rel=0" frameborder="0" allowfullscreen></iframe>
+
+<div class="pull-right">Часть 2</div>  
+
+<hr>
+
+<p>Три траектории поворота на бугре:</p>
+
+<ul>
+<li>По верхушке бугра, соскальзывая</li>
+<li>По центру между бугром и его соседом</li>
+<li>Глубокий поворот, почти по соседнему бугру</li>
+</ul>
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/wTHvtf6lBYw?rel=0" frameborder="0" allowfullscreen></iframe>
+
+<div class="pull-right">Часть 3</div> ]]></content:encoded></item><item><title><![CDATA[Модульная секта]]></title><description><![CDATA[<p><img src="http://b.wndlust.ru/content/images/2016/01/modulnie-sistemy-super.jpg" height="400"></p>
+
+<p>Прочел книгу &laquo;Модульные системы в&nbsp;графическом дизайне&raquo; Йозефа Мюллера-Брокманна. Книга посвящена одному простому элементу &nbsp;&mdash;  &laquo;модульной&nbsp;сетке&raquo; и&nbsp;не&nbsp;пытается покрыть все аспекты дизайна. Книгу не&nbsp;только интересно читать, но&nbsp;и&nbsp;просто приятно держать руках. Хочется гладить ее&</p>]]></description><link>http://b.wndlust.ru/modulnaia-siekta/</link><guid isPermaLink="false">c1894ba3-f487-46d7-8950-bd3b227fd449</guid><dc:creator><![CDATA[volyx]]></dc:creator><pubDate>Tue, 19 Jan 2016 09:55:24 GMT</pubDate><media:content url="http://b.wndlust.ru/content/images/2016/01/modulnie-sistemy-super-1.jpg" medium="image"/><content:encoded><![CDATA[<img src="http://b.wndlust.ru/content/images/2016/01/modulnie-sistemy-super-1.jpg" alt="Модульная секта"><p><img src="http://b.wndlust.ru/content/images/2016/01/modulnie-sistemy-super.jpg" height="400" alt="Модульная секта"></p>
+
+<p>Прочел книгу &laquo;Модульные системы в&nbsp;графическом дизайне&raquo; Йозефа Мюллера-Брокманна. Книга посвящена одному простому элементу &nbsp;&mdash;  &laquo;модульной&nbsp;сетке&raquo; и&nbsp;не&nbsp;пытается покрыть все аспекты дизайна. Книгу не&nbsp;только интересно читать, но&nbsp;и&nbsp;просто приятно держать руках. Хочется гладить ее&nbsp;обложку и&nbsp;водить рукой по&nbsp;страницам&nbsp;&mdash; так она прекрасна. Аккуратно, не&nbsp;спеша автор делиться пользой использования модульный сетки и&nbsp;заражает этой любовью читателя. Практические расчеты при построении модульной сетки, расчета кегля шрифта, расстояния между строк, размеров полей наконец-то спускает дизайн с&nbsp;небес до&nbsp;понятный математических расчетов. Здорово, когда существует формула красоты.</p>
+
+<p>Далее будут наиболее понравившиеся книгшоты(ну как скриншоты, только с книги) и&nbsp;пример расчета модульной сетки.</p>
+
+<p><strong>Содержание</strong>
+<img src="http://b.wndlust.ru/content/images/2016/01/e6227a52c82fc30841a0ee1f43c3f987.png" alt="Модульная секта"></p>
+
+<p><img src="http://b.wndlust.ru/content/images/2016/01/tGdx9.jpg" alt="Модульная секта"></p>
+
+<p><img src="http://b.wndlust.ru/content/images/2016/01/934bm.jpg" alt="Модульная секта"></p>
+
+<p><img src="http://b.wndlust.ru/content/images/2016/01/oxNy3.jpg" alt="Модульная секта"></p>
+
+<p><a href="http://www.artlebedev.ru/everything/izdal/modulnye-sistemy/">Ссылка на&nbsp;книгу</a></p>
+
+<p><a href="http://kirillbelyaev.com/all/raster-systeme-von-josef-muller-brockmann/">Рецензия и&nbsp;заметки по&nbsp;книге</a></p>
+
+<p><a href="http://artgorbunov.ru/bb/soviet/20140901/">Совет Горбунова по&nbsp;модульной сетке</a></p>
+
+<p><a href="http://alexsv.ru/modulnaya-setka-v-graficheskom-dizajne/">Из&nbsp;блога</a></p>]]></content:encoded></item><item><title><![CDATA[Леонард Млодинов - (Не)совершенная случайность]]></title><description><![CDATA[<p><img src="http://b.wndlust.ru/content/images/2016/01/---------2016-01-03-21-05-22.png" height="400"></p>
+
+<p>Млодинов очень увлекательно и&nbsp;доходчиво рассказывает о&nbsp;сложных математических понятиях. Очень жаль, что эта книга не&nbsp;попалась мне во&nbsp;время курса теории вероятности в&nbsp;универеситете. Она сто процентов заинтересует вас в высшей математике и просто без формул объяснит сложные термины из теории вероятности.</p>
+
+<p>Самой полезной</p>]]></description><link>http://b.wndlust.ru/baiies/</link><guid isPermaLink="false">36fe52b2-47e2-4369-854e-1ba9328494ad</guid><dc:creator><![CDATA[volyx]]></dc:creator><pubDate>Sat, 09 Jan 2016 20:02:20 GMT</pubDate><media:content url="http://b.wndlust.ru/content/images/2016/01/---------2016-01-03-21-05-22-1.png" medium="image"/><content:encoded><![CDATA[<img src="http://b.wndlust.ru/content/images/2016/01/---------2016-01-03-21-05-22-1.png" alt="Леонард Млодинов - (Не)совершенная случайность"><p><img src="http://b.wndlust.ru/content/images/2016/01/---------2016-01-03-21-05-22.png" height="400" alt="Леонард Млодинов - (Не)совершенная случайность"></p>
+
+<p>Млодинов очень увлекательно и&nbsp;доходчиво рассказывает о&nbsp;сложных математических понятиях. Очень жаль, что эта книга не&nbsp;попалась мне во&nbsp;время курса теории вероятности в&nbsp;универеситете. Она сто процентов заинтересует вас в высшей математике и просто без формул объяснит сложные термины из теории вероятности.</p>
+
+<p>Самой полезной оказалась глава, посвященная условной вероятности. Вся книга читается на раз, я без сомнений  готов перечитать ее еще раз.</p>
+
+<p>На&nbsp;вероятность влияет тот факт, что событие произойдет, <strong>если</strong> или <strong>при условии</strong>, что произойдут другие события. В&nbsp;этом и&nbsp;заключается <a href="https://ru.wikipedia.org/wiki/%D0%A2%D0%B5%D0%BE%D1%80%D0%B5%D0%BC%D0%B0_%D0%91%D0%B0%D0%B9%D0%B5%D1%81%D0%B0">теорема Байеса</a> или теория условной вероятности. Теорема Бернулли решает следующий вопрос: сколько получится орлов, если планируется произвести много бросков идеальной монеты, в&nbsp;то&nbsp;время как Байес исследовал первоначальную цель Бернулли&nbsp;&mdash; вопрос о&nbsp;том, насколько можно быть уверенным в&nbsp;том, что монета идеальна, если выпадает определенное число орлов. Байес разработал условную вероятность в&nbsp;попытке ответить на&nbsp;тот&nbsp;же вопрос, который увлек Бернулли: как по&nbsp;известному факту события вычислить вероятность того, что оно было вызвано данной причиной? </p>
+
+<p>Представим, что ваш босс стал отвечать на&nbsp;ваши электронные письма с&nbsp;запозданием. Многие подумают, что это конец, и&nbsp;скоро начальник вас уволит. Подумают они это потому что: если вас собираются уволить, велика вероятность того, что босс перестанет отвечать на&nbsp;ваши письма оперативно. Однако босс может запаздывать с&nbsp;ответом и&nbsp;потому что просто занят. 
+Так что вероятность того что вас скоро уволят, если начальник стал отвечать на&nbsp;письма с&nbsp;задержкой, <strong>гораздо ниже</strong>, чем вероятность того, что ваш начальник станет отвечать на&nbsp;письма с&nbsp;задержкой если вас ждет увольнение.</p>
+
+<p>Своей привлекательностью многие теории заговоров обещаны неправильному пониманию вышеприведенных логических выкладок. То&nbsp;есть все дело в&nbsp;путанице: вероятность того, что ряд событий произойдет, <strong>если</strong> события эти являются результатом тайного заговора, путают с&nbsp;вероятностью того, что тайный заговор существует, <strong>если</strong> имеет место ряд событий.</p>
+
+<p>На&nbsp;вероятность влияет тот факт, что событие произойдет, <strong>если</strong> и&nbsp;<strong>при условии, что</strong> произойдут другие события.</p>
+
+<p>Представьте себе компанию людей, незнакомых друг другу. И&nbsp;один из&nbsp;них неожиданно начинает нести ерунду. Кто-то из&nbsp;компании в&nbsp;шутку говорит: 
+&mdash;&nbsp;&laquo;Он, наверное, спятил.&raquo;
+Условная вероятность может ответить на&nbsp;этот вопрос. Насколько &laquo;наверное&raquo;? Какова вероятность того, что в&nbsp;компании сумасшедший&nbsp;и, что именно сейчас в данный момент он&nbsp;несет чушь?</p>
+
+<p>Чтобы разобраться лучше, посмотрим на задаче о двух девочках.</p>
+
+<blockquote>
+  <p>В&nbsp;семье двое детей; какова вероятность того, что если один из&nbsp;детей &mdash;
+  девочка, то&nbsp;и&nbsp;другой ребенок тоже девочка? </p>
+</blockquote>
+
+<p>В&nbsp;этой задаче пространство элементарных событий изначально такое:</p>
+
+<ul>
+<li>(мальчик, мальчик),</li>
+<li>(мальчик, девочка),</li>
+<li>(девочка, мальчик),</li>
+<li>(девочка, девочка),</li>
+</ul>
+
+<p>Однако оно сокращается до следующих параметров, так как мы уже знаем что один ребенок - девочка: </p>
+
+<ul>
+<li>(мальчик, девочка), </li>
+<li>(девочка, мальчик), </li>
+<li>(девочка, девочка), </li>
+</ul>
+
+<p>Получается, что если вы узнаете, что один из&nbsp;детей&nbsp;&mdash; девочка, что шансы на&nbsp;семью из&nbsp;двух девочек составляют 1&nbsp;из&nbsp;3.</p>
+
+<p>А теперь представьте, что Млодинов дальше утверждает:</p>
+
+<blockquote>
+  <p>Тот факт, что одну из девочек зовут Флорида, меняет шансы на 1 из 2. </p>
+</blockquote>
+
+<p>Кажется совершенно невероятным. Видимо, в имени Флорида есть что-то особенное. Давайте разбираться. Итак, условие:</p>
+
+<blockquote>
+  <p>В&nbsp;семье двое детей; какова вероятность того, что если один из&nbsp;детей &mdash;
+  девочка по&nbsp;имени Флорида, то&nbsp;и&nbsp;другой ребенок тоже девочка? </p>
+</blockquote>
+
+<p>В этой задаче нас интересует помимо пола детей еще и&nbsp;имя,
+поскольку речь о&nbsp;девочках. Наше первоначальное пространство элементарных событий должно
+включать в&nbsp;себя все вероятности, поэтому список содержит и&nbsp;пол, и&nbsp;имя. Обозначим девочку по
+имени Флорида как &laquo;девочка&nbsp;Ф&raquo;, а&nbsp;девочку по&nbsp;имени не&nbsp;Флорида как &laquo;девочка не&nbsp;Ф&raquo;.
+Обозначим пространство элементарных событий:</p>
+
+<ul>
+<li>(мальчик, мальчик)</li>
+<li>(мальчик, девочка Ф.)</li>
+<li>(мальчик, девочка не&nbsp;Ф.)</li>
+<li>(девочка&nbsp;Ф., мальчик)</li>
+<li>(девочка не&nbsp;Ф., мальчик)</li>
+<li>(девочка не&nbsp;Ф., девочка Ф.)</li>
+<li>(девочка&nbsp;Ф., девочка не&nbsp;Ф.)</li>
+<li>(девочка не&nbsp;Ф., девочка не&nbsp;Ф.)</li>
+<li>(девочка&nbsp;Ф., девочка Ф.).</li>
+</ul>
+
+<p>Теперь &laquo;урежем&raquo;. Так как нам известно, что один из&nbsp;детей&nbsp;&mdash; девочка по&nbsp;имени Флорида, можно сократить пространство элементарных событий:</p>
+
+<ul>
+<li>(мальчик, девочка Ф.)</li>
+<li>(девочка&nbsp;Ф., мальчик)</li>
+<li>(девочка не&nbsp;Ф., девочка Ф.)</li>
+<li>(девочка&nbsp;Ф., девочка Ф.)</li>
+</ul>
+
+<p>Теперь видно, чем еще эта задача отличается от&nbsp;задачи про двух дочерей. Поскольку утверждения, что девочку
+зовут Флорида и&nbsp;девочку зовут не&nbsp;Флорида, нельзя назвать равновероятными, не&nbsp;являются
+таковыми и&nbsp;все элементы пространства элементарных событий.</p>
+
+<p>В&nbsp;1935, последнем году, за&nbsp;который Управление социальным обеспечением предоставило
+статистику в&nbsp;отношении имени, около 1&nbsp;из&nbsp;30.000 девочек были наречены именем
+Флорида. Поскольку имя становилось все менее популярным, предположим, что сегодня
+вероятность появления девочки по&nbsp;имени Флорида равна 1&nbsp;из&nbsp;1&nbsp;млн. Это значит следующее:
+если нам станет известно, что определенную из&nbsp;двух девочку зовут не&nbsp;Флорида, ничего
+страшного, однако если мы&nbsp;узнаем, что ее&nbsp;зовут Флорида, можно сказать, что мы&nbsp;попали в
+точку. Вероятность того, что обеих девочек назовут именем Флорида (даже если мы
+проигнорируем тот факт, что обычно родители избегают давать детям одинаковые имена),
+настолько мала, что можно спокойно ею&nbsp;пренебречь. Итак, вот что у&nbsp;нас остается: </p>
+
+<ul>
+<li>(мальчик, девочка&nbsp;Ф.)</li>
+<li>(девочка&nbsp;Ф., мальчик)</li>
+<li>(девочка не&nbsp;Ф., девочка&nbsp;Ф.)</li>
+<li>(девочка&nbsp;Ф., девочка не&nbsp;Ф.). </li>
+</ul>
+
+<p>Все эти события в&nbsp;весьма хорошем приближении равновозможны.</p>
+
+<p>Поскольку 2&nbsp;из&nbsp;4, то&nbsp;есть половина элементов пространства элементарных событий
+являются семьями с&nbsp;двумя девочками, ответом не&nbsp;может быть 1&nbsp;из&nbsp;3&nbsp;&mdash; как это было в&nbsp;задаче с
+двумя дочерьми,&nbsp;&mdash; ответом является 1&nbsp;из&nbsp;2. Все дело в&nbsp;дополнительной информации &mdash;
+осведомленности насчет имени девочки.</p>
+
+<p>Если вы&nbsp;по-прежнему теряетесь в&nbsp;догадках, то&nbsp;можно представить себе следующее: в
+очень-очень большой комнате мы&nbsp;собираем 75&nbsp;млн семей с&nbsp;двумя детьми, из&nbsp;которых хотя&nbsp;бы
+один ребенок&nbsp;&mdash; девочка. Как нам стало известно из&nbsp;задачи с&nbsp;двумя дочерьми, в&nbsp;комнате
+окажется около 25&nbsp;млн семей с&nbsp;двумя девочками и&nbsp;50&nbsp;млн семей с&nbsp;одной девочкой (25&nbsp;млн
+семей, в&nbsp;которых девочка является старшим ребенком, и&nbsp;столько&nbsp;же семей, в&nbsp;которых девочка
+является младшим ребенком). </p>
+
+<p>Далее &laquo;урезаем&raquo;: просим остаться в&nbsp;комнате только те&nbsp;семьи, в
+которых есть девочки по&nbsp;имени Флорида. Поскольку Флорида&nbsp;&mdash; 1&nbsp;имя на&nbsp;1&nbsp;млн имен,
+останутся около 50&nbsp;из&nbsp;50&nbsp;млн семей с&nbsp;одной девочкой. А&nbsp;из&nbsp;25&nbsp;млн семей с&nbsp;двумя девочками 50
+тоже останутся: 25&nbsp;потому, что их&nbsp;первый ребенок назван по&nbsp;имени Флорида, другие 25&nbsp;потому,
+что их&nbsp;младшая дочь названа Флоридой. </p>
+
+<p>В&nbsp;этом примере всех девочек можно представить как
+лотерейные билеты; в&nbsp;таком случае девочки по&nbsp;имени Флорида станут выигрышными билетами.
+И&nbsp;хотя семей, в&nbsp;которых один из&nbsp;двух детей&nbsp;&mdash; девочка, в&nbsp;два раза больше, чем семей, в&nbsp;которых
+оба ребенка&nbsp;&mdash; девочки, семьи с&nbsp;двумя девочками обладают двумя лотерейными билетами,
+поэтому среди выигравших будет примерно одинаковое соотношение семей с&nbsp;одной девочкой и
+семей с&nbsp;двумя девочками.</p>
+
+<p>Следовательно, ответ 1/2. Если в семье одну девочку зовут Флорида, то вероятность, того что второй ребенок девочка - 1/2.</p>]]></content:encoded></item><item><title><![CDATA[Принципы смешного. Аналогия и ассоциация.]]></title><description><![CDATA[<p>Попытка объяснить словами над чем смеются люди. Сегодня разберемся с&nbsp;<strong>ассоциациями</strong> и&nbsp;<strong>аналогиями</strong>.</p>
+
+<h2 id="">Аналогия</h2>
+
+<p>Применяется к&nbsp;ситуациям, похожим на&nbsp;знаменитые моменты или сюжеты в&nbsp;художественных произведениях, известных всем окружающим. </p>
+
+<blockquote>
+  <p><a href="https://youtu.be/RyvKNJ9mOTI">Какая гадость, эта ваша заливная рыба</a></p>
+</blockquote>
+
+<p>Выражение употребляется, если, например, вы&nbsp;находите эмоциональную аналогию с&</p>]]></description><link>http://b.wndlust.ru/printsipy-smieshnogho/</link><guid isPermaLink="false">9da10b46-8a9a-41b9-845d-18d6910cbafa</guid><category><![CDATA[Принципы смешного]]></category><dc:creator><![CDATA[volyx]]></dc:creator><pubDate>Thu, 31 Dec 2015 09:46:28 GMT</pubDate><content:encoded><![CDATA[<p>Попытка объяснить словами над чем смеются люди. Сегодня разберемся с&nbsp;<strong>ассоциациями</strong> и&nbsp;<strong>аналогиями</strong>.</p>
+
+<h2 id="">Аналогия</h2>
+
+<p>Применяется к&nbsp;ситуациям, похожим на&nbsp;знаменитые моменты или сюжеты в&nbsp;художественных произведениях, известных всем окружающим. </p>
+
+<blockquote>
+  <p><a href="https://youtu.be/RyvKNJ9mOTI">Какая гадость, эта ваша заливная рыба</a></p>
+</blockquote>
+
+<p>Выражение употребляется, если, например, вы&nbsp;находите эмоциональную аналогию с&nbsp;ситуацией в&nbsp;фильме. <em>Осторожей с&nbsp;такими фразочками, от&nbsp;них сильно попахивает нафаталином. Вы&nbsp;прослывете шутилой старого поколения, ведь такими шутками злоупотребляют папы, дяди, и&nbsp;прочие родственники и&nbsp;друзья их&nbsp;возраста.</em></p>
+
+<p>Предложения с&nbsp;аналогиями начинаются с&nbsp;фраз &laquo;это как&raquo;, &laquo;как будто&raquo;, &laquo;он&nbsp;бы еще&raquo;, &laquo;а&nbsp;если&nbsp;бы&raquo;. Вступительные выражения помогают мозгу понять, что это аналогия. Мозгу говорящего при придумывании, а&nbsp;окружающим при прослушивании реплики.</p>
+
+<p>Услышал реплику на&nbsp;вокзале. Знакомый ехал в&nbsp;отпуск с&nbsp;дувушкой, и&nbsp;получил такую репризу:</p>
+
+<blockquote>
+  <p>В&nbsp;лес со&nbsp;своими дровами едешь</p>
+</blockquote>
+
+<p>Давайте разберемся, что вообще смешного в&nbsp;этой едкой фразочке. Вход идут сразу две аналогии, поэтому этот &laquo;двойной удар юмора&raquo; веселит мужскую половину публики. Лучше приберечь это выражение для мужской бани. Итак, состав двойного удара. Первая часть: в&nbsp;отпуск&nbsp;&mdash; в&nbsp;лес. Означает, что там много и&nbsp;так народу. Вроде&nbsp;бы пока ничего особенного. Вторая часть расставляет ясность над первой и&nbsp;повергает в&nbsp;смех окружающих: девушка&nbsp;&mdash; дрова. Выясняется, что в&nbsp;первой части предложения говорится о&nbsp;женщинах, а&nbsp;аналогия девушка&nbsp;&mdash; дрова добавляет остроты и&nbsp;крутости &laquo;леснику&raquo;-говорящему. Эта шутка подходит только для мужских коллективов, для &laquo;курилок и&nbsp;бань&raquo;&nbsp;&mdash; я&nbsp;так называю публику данной шутки. </p>
+
+<p>Чем более понятна аналогия, тем смешнее она кажется. Чем больше людей узнают сходство этой ситуации, тем веселей.</p>
+
+<h2 id="">Ассоциация</h2>
+
+<p>Образ, эмоциональное, или интеллектуальное подобие, понятное в&nbsp;большей степени говорящему. Остальные только предполагают путь к&nbsp;этой ассоциации. Похоже на&nbsp;аналогию, но&nbsp;работает больше ваша индивидуальность. Является уменьшенной копией аналогии, или даже подмножеством. Разница в&nbsp;индивидуальности ассоциации. Аналогию сразу понимают окружающие, как известный фильм например, а&nbsp;ассоциация более личная вещь. Очень тонкие ассоциации, приходится затем пояснять словами. Есть известная игра в&nbsp;ассоциации. Первый игрок называет слово, а&nbsp;второй первое слово которое придёт ему на&nbsp;ум.</p>
+
+<p>Например: рыба&nbsp;&mdash; река, муха&nbsp;&mdash; липучка, новый год&nbsp;&mdash; похмелье. Тут то&nbsp;и&nbsp;рождается шутка, потому что мозг людей и&nbsp;жизненный опыт весьма похожи. В&nbsp;голове у&nbsp;собеседника выстраивается цепочка, которая объясняет ему, как появилось данная ассоциация. Несколько таких интересных и&nbsp;неожиданных ассоциаций и&nbsp;вы&nbsp;прослывете весьма неординарным и&nbsp;неожиданным человеком. Главное не&nbsp;перебарщивать. Ведь например ассоциация: &laquo;голубь&nbsp;&mdash; взросление&raquo;, только оставит в&nbsp;тупик всех остальных, а&nbsp;ассоциация &laquo;краб-рубль&raquo; повеселит публику более длинной цепочкой размышлений.</p>
+
+<p>Вы&nbsp;можете начать историю с&nbsp;одного сюжета, а&nbsp;закончить ассоциацией. Это самый часто встречающийся прием:
+&gt; Кто проживает на&nbsp;дне океана? Кто-то, кто-то днище.</p>
+
+<p>Эта фраза не&nbsp;очень смешна, но&nbsp;хорошо иллюстрирует ассоциацию. Это индивидуальный опыт рассказывающего, а&nbsp;не&nbsp;всем известная фраза. Мы&nbsp;подбираем не&nbsp;сюжет из&nbsp;фильма/книги, как в&nbsp;аналогии, а&nbsp;сначала придумывает ассоциацию к&nbsp;началу рассказа, а&nbsp;затем неожиданно поворачиваем сюжет. Эффект неожиданности один из&nbsp;самых интересных и&nbsp;работающих принцип смешного. В&nbsp;следующих заметках мы&nbsp;обязательно его разберем.</p>]]></content:encoded></item><item><title><![CDATA[Уроки для продвинутых горнолыжников]]></title><description><![CDATA[<h2 id="7">Повороты (Урок 7)</h2>
+
+<p><strong>Положение тела при коротких поворотах(7.1)</strong></p>
+
+<p>Верхняя часть тела должна быть зафиксирована, и  направлена вниз по склону, а двигаются только нижняя часть тела. Это идеал, к которому нужно стремиться.</p>
+
+<p>Упражнение - палки подмышками.</p>
+
+<p>Упражнение - спуск по буграм, поворот на каждом возвышении.</p>
+
+<p>Упражнение - вытянутые руки</p>]]></description><link>http://b.wndlust.ru/uroki-dlia-ghornolyzhnikov/</link><guid isPermaLink="false">d0ecf23d-9254-4ac8-b855-7fddedbd045e</guid><category><![CDATA[горнолыжка]]></category><dc:creator><![CDATA[volyx]]></dc:creator><pubDate>Tue, 22 Dec 2015 19:08:17 GMT</pubDate><content:encoded><![CDATA[<h2 id="7">Повороты (Урок 7)</h2>
+
+<p><strong>Положение тела при коротких поворотах(7.1)</strong></p>
+
+<p>Верхняя часть тела должна быть зафиксирована, и  направлена вниз по склону, а двигаются только нижняя часть тела. Это идеал, к которому нужно стремиться.</p>
+
+<p>Упражнение - палки подмышками.</p>
+
+<p>Упражнение - спуск по буграм, поворот на каждом возвышении.</p>
+
+<p>Упражнение - вытянутые руки без палок. </p>
+
+<p><iframe width="560" height="315" src="https://www.youtube.com/embed/l5gnnZXoDK0?&amp;showinfo=0" frameborder="0" allowfullscreen></iframe></p>
+
+<p><strong>Положение тела при длинных поворотах(7.2)</strong></p>
+
+<p>При длинных поворотах корпус сильнее наклоняется вперед.</p>
+
+<p>Параллельная линия между лыжами, коленями, тазом плечами и руками.</p>
+
+<p>Упражнение - без палок, внешняя рука в повороте направлена вперед, внутренняя рука опирается на колено.</p>
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/W2x3BFhNUGg?&amp;showinfo=0" frameborder="0" allowfullscreen></iframe>
+
+<p><strong>Давление на канты(7.3)</strong></p>
+
+<p>Регулируя давление на кант, лыжу можно управлять дугой и динамикой поворота.</p>
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/vJtKSIW8DDs?&amp;showinfo=0" frameborder="0" allowfullscreen></iframe>
+
+<p><strong>Точность поворота(7.4)</strong></p>
+
+<p>Профи может повернуть именно там, где он планировал повернуть. Выбрать ровный склон, отметить глазами точки на нем, пытаться повернуть именно рядом с ними. Увеличить расстояние между ними. </p>
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/9wKEJWwoEZk?&amp;showinfo=0" frameborder="0" allowfullscreen></iframe>
+
+<p><strong>Выходы из поворотов(7.5)</strong></p>
+
+<p>Пробовать прокатиться на канте дольше. Таким способом можно регулировать скорость поворота.</p>
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/wOGg8faQRdk?&amp;showinfo=0" frameborder="0" allowfullscreen></iframe>
+
+<h2 id="8">Урок 8. Катание вне лыжных  трасс</h2>
+
+<p><strong>Выступление(8.1)</strong></p>
+
+<p>Проверь погоду, послушай советов, если ты начинающий.</p>
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/YGUWONwD3UI?&amp;showinfo=0" frameborder="0" allowfullscreen></iframe>
+
+<p><strong>Прогрессивный поворот(8.2)</strong></p>
+
+<p>Поворот, с длинным завершающем движением. Стараемся проехать на канте, как можно дольше. Даст время подготовится к следующему повороту и больше контроля над лыжами.</p>
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/idhKcBMeNzI?&amp;showinfo=0" frameborder="0" allowfullscreen></iframe>
+
+<p><strong>Выбор линии спуска(8.3)</strong></p>
+
+<p>Планировать линию до начала спуска и стараться не сходить с неё.</p>
+
+<p>Подметить все препятствия кочки, деревья, камни и спланировать маршрут как можно дальше от них.</p>
+
+<p>Всегда останавливаться на склоне если не до конца уверенны. Выбрать более часть склона, в которой уверен наверняка. </p>
+
+<p>Между препятствиями можно строить невидимые ворота, через которые прокладывать маршрут.</p>
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/epvobFl8e8M?&amp;showinfo=0" frameborder="0" allowfullscreen></iframe>
+
+<h3 id="84">8.4 - Катание по рыхлому снегу</h3>
+
+<p>Подстраиваться под снег</p>
+
+<p>Компенсировать качество снега - жесткость/мягкость/рыхлость можно положением корпуса, наклоняясь вперед, назад или в стороны.</p>
+
+<p>Оглядываться по сторонам, выбирать комфортный радиус дуги и пытаться предвидеть качество склона.</p>
+
+<p>При сильном ветре и образующейся корке используем прогрессивные повороты, помогая лыжам цепляться за снег.</p>
+
+<p>Держать позицию корпуса, чтобы кочки и жесткая снежная поверхность не смогли выбить из баланса.</p>
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/B7Zs7JdLUXU?&amp;showinfo=0" frameborder="0" allowfullscreen></iframe>
+
+<h3 id="85">8.5 - Катание между деревьев</h3>
+
+<p>Только при хорошей видимости.</p>
+
+<p>Выбирать только широкие просветы между деревьями.</p>
+
+<p>Если просвет сужается, то остановиться и попробовать сдвинуться вбок по склону.</p>
+
+<p>Всегда кататься только с другом.</p>
+
+<p>Менять траекторию движения в зависимости от деревьев.</p>
+
+<p>Гибко подстраиваться под изменяющие обстоятельства.</p>
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/UYJtfN33UOA?&amp;showinfo=0" frameborder="0" allowfullscreen></iframe>
+
+<h2 id="9">Прыжки(Урок 9)</h2>
+
+<p>Прыгать только вертикально вверх, сохраняя баланс.</p>
+
+<p>Важная часть это плавное начальное движение.</p>
+
+<p>Чувствовать баланс в полете. </p>
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/CLsAGnYBZMY?&amp;showinfo=0" frameborder="0" allowfullscreen></iframe>
+
+<h2 id="">Катание по пухляку</h2>
+
+<ul>
+<li><a href="https://youtu.be/Amtkt2J0cKI?list=PLOOXcYMYNAJ0Zia2y3JE5ojuWloI4VncR">Одеть лыжи на пухляке</a>
+<ul><li>Лыжа должна смотреть под углом вверх</li></ul></li>
+<li><a href="https://youtu.be/8p_3u5luQUI?list=PLOOXcYMYNAJ0Zia2y3JE5ojuWloI4VncR">Рюкзак с воздушной подушкой</a>
+<ul><li>Специальная подушка для воздуха при падении.</li></ul></li>
+<li><a href="https://youtu.be/Nl9P25a6wDo?list=PLOOXcYMYNAJ0Zia2y3JE5ojuWloI4VncR">Как встать с пухляка</a>
+<ul><li>Скрестить палки и опереться на них.</li></ul></li>
+<li><a href="https://youtu.be/9Pw5HXGf3GE?list=PLOOXcYMYNAJ0Zia2y3JE5ojuWloI4VncR">Как найти отцепившуюся лыжу в глубоком снеге</a>
+<ul><li>Просто должена быть с собой лопатка и всяике прикольные горнолыжные штучки.</li></ul></li>
+</ul>
+
+<h2 id="">Лайфхаки.</h2>
+
+<ul>
+<li><a href="https://youtu.be/RNHZOoUv1j0?list=PLOOXcYMYNAJ24Psvn4ugjqohDOCmYeYRP">Доминирующая нога</a></li>
+<li><a href="https://youtu.be/JUjCNUrVElA?list=PLOOXcYMYNAJ24Psvn4ugjqohDOCmYeYRP">Как держать палку правильно</a>
+<ul><li>Прижимать шнурок палки к ручке палки</li></ul></li>
+<li><a href="https://youtu.be/iA-2nsyFLXs?list=PLOOXcYMYNAJ24Psvn4ugjqohDOCmYeYRP">Точки на склоне</a>
+<ul><li>Не смотреть вниз</li></ul></li>
+<li><a href="https://youtu.be/o2mK5gqpevg?list=PLOOXcYMYNAJ24Psvn4ugjqohDOCmYeYRP">Ритм</a> 
+<ul><li>Найти свой ритм.</li></ul></li>
+</ul>
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/videoseries?list=PLOOXcYMYNAJ24Psvn4ugjqohDOCmYeYRP" frameborder="0" allowfullscreen></iframe>]]></content:encoded></item><item><title><![CDATA[Треугольник Паскаля и вероятность]]></title><description><![CDATA[<p>Вы знали, что с помощью треугольника Паскаля можно рассчитать количество сочетаний?
+Да, тех самых непонятных сочетаний из теории вероятности.</p>
+
+<p>Например, сколькими способами можно выбрать 3 школьников из 10.</p>
+
+<p>Допустим, физрук зашел в класс, и как обычно решил забрать трёх крепеньких мальчиков. 
+Всего в классе 10 мальчиков. Ему важна последовательность этих</p>]]></description><link>http://b.wndlust.ru/trieugholnik-paskalia-i-vieroiatnost/</link><guid isPermaLink="false">efe952d3-297a-42e4-87ae-5d4088e4016e</guid><dc:creator><![CDATA[volyx]]></dc:creator><pubDate>Mon, 21 Dec 2015 08:09:18 GMT</pubDate><media:content url="http://b.wndlust.ru/content/images/2015/12/5.jpg" medium="image"/><content:encoded><![CDATA[<img src="http://b.wndlust.ru/content/images/2015/12/5.jpg" alt="Треугольник Паскаля и вероятность"><p>Вы знали, что с помощью треугольника Паскаля можно рассчитать количество сочетаний?
+Да, тех самых непонятных сочетаний из теории вероятности.</p>
+
+<p>Например, сколькими способами можно выбрать 3 школьников из 10.</p>
+
+<p>Допустим, физрук зашел в класс, и как обычно решил забрать трёх крепеньких мальчиков. 
+Всего в классе 10 мальчиков. Ему важна последовательность этих мальчиков.</p>
+
+<p>Если он выберет Петрова, Иванова, Сидорова, то этот способ будет отличаться от Сидорова, Петрова, Иванова.
+Для этого нам потребуется треугольник Паскаля.</p>
+
+<p><img src="http://b.wndlust.ru/content/images/2015/12/pascal.png" alt="Треугольник Паскаля и вероятность"></p>
+
+<p>Нас интересует 10 ряд. И в нём четвёртое число.</p>
+
+<p>Ответ: 120. </p>
+
+<p>По-другому треугольник Паскаля можно записать вот так:</p>
+
+<p><img src="http://b.wndlust.ru/content/images/2015/12/Pask3.jpg" alt="Треугольник Паскаля и вероятность"></p>
+
+<p>Правильно, ведь на самом деле треугольник Паскаля состоит из сочетаний. 
+И можно запросто проверить по формуле сочетаний.</p>
+
+<p><img src="http://b.wndlust.ru/content/images/2015/12/CodeCogsEqn-1.gif" alt="Треугольник Паскаля и вероятность"></p>
+
+<p>Значит, нам нужно выбрать из n k сочетаний. Для нашего примера n=10 k=3.</p>
+
+<p><img src="http://b.wndlust.ru/content/images/2015/12/CodeCogsEqn.gif" alt="Треугольник Паскаля и вероятность"></p>]]></content:encoded></item><item><title><![CDATA[Пустой покет #1]]></title><description><![CDATA[<p><img src="http://b.wndlust.ru/content/images/2015/11/pocket-logo-icon.png" alt=""></p>
+
+<p>Безжалостная чистка ссылок примерно каждые две недели. Без цензуры и преукрас, только то, что добавил в закладки(<a href="https://getpocket.com">в покет</a>)</p>
+
+<ul>
+<li><a href="https://www.reddit.com/r/java/comments/3requx/javaone_2015_sessions/">JavaOne Sessions</a>
+посмотрел несколько про Docker </li>
+<li><a href="http://customgears.net/blog/principles-for-writing-maintainable-code/">Principles for Writing Maintainable Code</a> Куча акронимов, с расшифровокой</li>
+<li><a href="http://www.vinaysahni.com/best-practices-for-a-pragmatic-restful-api">Best Practices for Designing a Pragmatic RESTful API</a></li>
+<li><a href="http://learn.javascript.ru/webpack-screencast">Webpack скринкаст</a></li>
+<li><a href="http://habrahabr.ru/post/270059/">Highload на Java: о чем нужно</a></li></ul>]]></description><link>http://b.wndlust.ru/pustoi-pocket/</link><guid isPermaLink="false">5d2fa8eb-e8e5-4bf9-9fe6-2ffa27a3551a</guid><dc:creator><![CDATA[volyx]]></dc:creator><pubDate>Mon, 21 Dec 2015 08:03:24 GMT</pubDate><content:encoded><![CDATA[<p><img src="http://b.wndlust.ru/content/images/2015/11/pocket-logo-icon.png" alt=""></p>
+
+<p>Безжалостная чистка ссылок примерно каждые две недели. Без цензуры и преукрас, только то, что добавил в закладки(<a href="https://getpocket.com">в покет</a>)</p>
+
+<ul>
+<li><a href="https://www.reddit.com/r/java/comments/3requx/javaone_2015_sessions/">JavaOne Sessions</a>
+посмотрел несколько про Docker </li>
+<li><a href="http://customgears.net/blog/principles-for-writing-maintainable-code/">Principles for Writing Maintainable Code</a> Куча акронимов, с расшифровокой</li>
+<li><a href="http://www.vinaysahni.com/best-practices-for-a-pragmatic-restful-api">Best Practices for Designing a Pragmatic RESTful API</a></li>
+<li><a href="http://learn.javascript.ru/webpack-screencast">Webpack скринкаст</a></li>
+<li><a href="http://habrahabr.ru/post/270059/">Highload на Java: о чем нужно помнить</a></li>
+<li><a href="http://jakub.marchwicki.pl/posts/2015/06/04/maven-wrapper/">http://jakub.marchwicki.pl/posts/2015/06/04/maven-wrapper/</a></li>
+<li><a href="http://habrahabr.ru/post/270023/">Введение в RxJava, часть первая – Вступление: Ключевые типы</a></li>
+<li><a href="http://habrahabr.ru/post/269417/">Введение в RxJava, часть первая – Вступление: Почему Rx?</a></li>
+<li><a href="http://habrahabr.ru/post/269863/">Дюк, вынеси мусор! — Часть 3</a></li>
+<li><a href="http://habrahabr.ru/post/269707/">Дюк, вынеси мусор! — Часть 2</a></li>
+<li><a href="http://habrahabr.ru/post/269621/">Дюк, вынеси мусор! — Часть 1</a></li>
+<li><a href="http://habrahabr.ru/post/269687/">Лекции Технопарка: мастер-класс Алексея Рыбака «Про то, что я бы хотел, чтобы мне рассказали, пока я учился»</a></li>
+<li><a href="http://yakovfain.com/2015/11/02/angular-2-router-high-level-overview/">Angular 2 Router: High-Level Overview</a></li>
+<li>Isomorphic JavaScript: The Future of Web Apps <a href="http://nerds.airbnb.com/isomorphic-javascript-future-web-apps/">http://nerds.airbnb.com/isomorphic-javascript-future-web-apps/</a></li>
+<li><a href="http://m.habrahabr.ru/company/parallels/blog/269927/">Чему мы научились, разрабатывая backend</a></li>
+<li><a href="http://habrahabr.ru/post/112069/">Фильтр Блума</a></li>
+<li><a href="https://www.voxxed.com/blog/2015/04/coupling-versus-autonomy-in-microservices/">
+Coupling Versus Autonomy in Microservices <br>
+</a></li>
+<li><a href="https://www.voxxed.com/blog/2015/09/how-we-get-things-done-productivity-stacks-for-tech-startups/">
+How We Get Things Done – Productivity Stacks For Tech Startups <br>
+</a></li>
+</ul>]]></content:encoded></item><item><title><![CDATA[Н К И Б М Ш И Б]]></title><description><![CDATA[<p>В&nbsp;детстве у&nbsp;моего брата было плохое зрение. Из-за этого мы&nbsp;очень часто ходили к&nbsp;окулисту. Мы&nbsp;это&nbsp;&mdash; мама, брат, я. Мы ходили достаточно часто, поэтому даже были знакомы с окулистом ну&nbsp;точнее мама знакома.</p>
+
+<p>Меня всегда брали с&nbsp;собой и&</p>]]></description><link>http://b.wndlust.ru/mozhno-ighrat-v-kompiutier/</link><guid isPermaLink="false">c987723f-8509-4ab0-a604-3a14f51845f1</guid><dc:creator><![CDATA[volyx]]></dc:creator><pubDate>Sun, 13 Dec 2015 21:31:17 GMT</pubDate><content:encoded><![CDATA[<p>В&nbsp;детстве у&nbsp;моего брата было плохое зрение. Из-за этого мы&nbsp;очень часто ходили к&nbsp;окулисту. Мы&nbsp;это&nbsp;&mdash; мама, брат, я. Мы ходили достаточно часто, поэтому даже были знакомы с окулистом ну&nbsp;точнее мама знакома.</p>
+
+<p>Меня всегда брали с&nbsp;собой и&nbsp;проверяли зрение и&nbsp;мне,&nbsp;&mdash; так сказать, заодно. Я&nbsp;всегда гордился своими здоровыми глазами. Ну&nbsp;представьте: сначала врач-окулист проверяет зрение брату, и&nbsp;со&nbsp;вздохами говорит цифру маме&nbsp;&mdash; &laquo;минус пять&raquo;. Мама вздыхает, переживает, ведь старшему сыну всего десять лет, а&nbsp;уже такая тенденция, они долго обсуждают будущие очки, капли, гимнастику для глаз, таблетки, что нужно меньше читать, смотреть телевизор, смотреть в&nbsp;компьютер, ну&nbsp;и&nbsp;вообще меньше куда-либо смотреть. В&nbsp;процессе обсудят все и&nbsp;вся, и&nbsp;царя, и&nbsp;Ельцина, и&nbsp;власть, и&nbsp;цены на&nbsp;таблетки. И&nbsp;пару раз пройдутся по&nbsp;рецепту сначала вниз, а&nbsp;затем вверх. Ведь понять что-то в&nbsp;почерке врача почти не&nbsp;возможно.</p>
+
+<p>А&nbsp;затем говорят,&nbsp;&mdash; &laquo;Ну&nbsp;давайте и&nbsp;младшего посмотрим&raquo;. И&nbsp;еще обязательно добавят&nbsp;&mdash; &laquo;Они так похожи&raquo;, а&nbsp;мама скажет, что не&nbsp;всем,&nbsp;&mdash; &laquo;Что у&nbsp;младшего зрение хорошее, что он&nbsp;в&nbsp;маму пошёл&raquo;. Я&nbsp;быстро садился и&nbsp;мгновенно произносил: <strong>Н&nbsp;К&nbsp;И&nbsp;Б&nbsp;М&nbsp;Ш&nbsp;И&nbsp;Б</strong>. Я&nbsp;до&nbsp;сих пор наизусть помню эту строчку. </p>
+
+<p>Дальше я&nbsp;спрыгивал со&nbsp;стула и&nbsp;шел в&nbsp;обратную сторону под слова окулиста&nbsp;&mdash; &laquo;единичка&raquo;. Дальше мы&nbsp;шли домой, слушая будущие запреты и&nbsp;новые изменения в&nbsp;нашей жизни. После каждого такого похода время проводимое перед компьютером и&nbsp;телевизором уменьшалось. Ежедневно пились таблетки&nbsp;&mdash; &laquo;черника-форте&raquo;. Хоть мое зрение не&nbsp;падало, я&nbsp;все равно делал это заодно. Возможно, мне были какие-то поблажки, может быть я&nbsp;просто забыл. Но&nbsp;обычно запрет применялся к&nbsp;обоим, и&nbsp;не&nbsp;важно кто виноват. Виноваты всегда двое.</p>
+
+<p>Так происходило много лет, наверное, лет пять. Пока моё уникальное преимущество не&nbsp;стало пропадать. Тут я&nbsp;уже вышел на&nbsp;арену, окруженную вздохами и&nbsp;фразами&nbsp;&mdash; &laquo;Ослепнешь совсем&raquo;.</p>
+
+<p>После какого-то длинного перерыва моё зрение ухудшилось на&nbsp;единичку на&nbsp;одном глазу и&nbsp;на&nbsp;половинку на&nbsp;втором. И&nbsp;это был удар ниже пояса. Мне казалось, что мир не&nbsp;справедлив. Я&nbsp;получил, как мне казалось гораздо большую порцию запретов. Это не&nbsp;укладывалось в&nbsp;моей голове&nbsp;&mdash; &laquo;Как так, у&nbsp;брата аж&nbsp;минус пять, а&nbsp;у&nbsp;меня всего минус один. А&nbsp;ему можно сидеть за&nbsp;компьютером, а&nbsp;мне нет. У&nbsp;него&nbsp;же в&nbsp;пять раз хуже зрение?&raquo; Но&nbsp;ответ был&nbsp;&mdash; &laquo;У&nbsp;него уже зрение упало, за&nbsp;тебя мы&nbsp;еще повоюем&raquo;.</p>
+
+<p>Война продолжилась, я&nbsp;получил походы на&nbsp;электрофорез и&nbsp;черные очки с&nbsp;дырочками. На&nbsp;электрофорезе меня немного било током в&nbsp;глаза. Видимо это как-то помогало чему-то. Спалось там чудно, так что я&nbsp;не&nbsp;особо паниковал. Но&nbsp;с&nbsp;некоторыми переменами я&nbsp;отказывался соглашаться.</p>
+
+<p>Спустя годы мое зрение устаканилось в&nbsp;районе минус трёх. У&nbsp;ношу очки только за&nbsp;рулем или когда смотрю на&nbsp;доску. И&nbsp;спустя наверное пять лет я&nbsp;опять пошел к&nbsp;окулисту. Ножки тряслись.</p>
+
+<p>Во-первых очень сильно изменилось оборудование&nbsp;&mdash; я&nbsp;все время смотрел в&nbsp;какие-то странные гаджеты. Складывалось ощущение, что к&nbsp;окулисту давно никто не&nbsp;заходил, и&nbsp;он&nbsp;решил просто испробовать всё на&nbsp;мне. Я&nbsp;обалдел уже только от&nbsp;проектора цифр и&nbsp;букв на&nbsp;стену(это вместо всем известной таблички), а потом меня добили всякими приборами в&nbsp;которых показывались картинки.</p>
+
+<p>Во-вторых мое зрение не&nbsp;упало! А&nbsp;даже улучшилось! Сейчас оно &minus;1.75&nbsp;на оба глаза с&nbsp;небольшим астигматизмом на&nbsp;левом. Я&nbsp;так этому рад. Я&nbsp;рассчитывал на&nbsp;самые худшие варианты минус пять например. Все&nbsp;же я&nbsp;по&nbsp;9&nbsp;часов сижу за&nbsp;компьютером и&nbsp;глаза у&nbsp;меня часто устают. А&nbsp;тут такой подарок судьбы. </p>
+
+<p>Я&nbsp;шел радостный как будто мне вновь можно сидеть за&nbsp;компьютером больше брата.</p>]]></content:encoded></item><item><title><![CDATA["Отрочество" Ричарда Линклейтера]]></title><description><![CDATA[<p>Фильм снимался в&nbsp;течении 12&nbsp;лет с&nbsp;одними и&nbsp;теми&nbsp;же актёрами. Только из-за этого фильм уникален. </p>
+
+<p>В&nbsp;нём нет никаких ярких вспышек и&nbsp;запоминающихся поворотов сюжетов. Просто жизнь и&nbsp;этим он&nbsp;просто невероятно затягивает. Убийственно интересно &laquo;подглядывать&raquo; за&</p>]]></description><link>http://b.wndlust.ru/otrochiestvo/</link><guid isPermaLink="false">860d9dcd-d050-43b6-b12c-f7b56f2c7aa6</guid><dc:creator><![CDATA[volyx]]></dc:creator><pubDate>Sun, 13 Dec 2015 19:40:24 GMT</pubDate><content:encoded><![CDATA[<p>Фильм снимался в&nbsp;течении 12&nbsp;лет с&nbsp;одними и&nbsp;теми&nbsp;же актёрами. Только из-за этого фильм уникален. </p>
+
+<p>В&nbsp;нём нет никаких ярких вспышек и&nbsp;запоминающихся поворотов сюжетов. Просто жизнь и&nbsp;этим он&nbsp;просто невероятно затягивает. Убийственно интересно &laquo;подглядывать&raquo; за&nbsp;героями. Чем-то с&nbsp;схоже с&nbsp;&laquo;Шоу Трумэна&raquo;, но&nbsp;тут то&nbsp;герой в&nbsp;реальном мире.</p>
+
+<p>Взрослеющие, меняющиеся на&nbsp;твоих глазах герои захватывают своими простыми проблемами не&nbsp;хуже &laquo;Игры престолов&raquo;. Нет никакой тяжелой социальщины или бытовухи. Нет ничего, кроме взросления американского мальчика. </p>
+
+<p>Сюжет настолько обычен, что любая бабушка на&nbsp;остановке наверняка может рассказать такую историю&nbsp;&mdash; неудачное замужество, одинокая мать ставит на&nbsp;ноги двоих детей, второе замужество, ... и&nbsp;так далее. Серия жизненности.</p>
+
+<p><img src="http://b.wndlust.ru/content/images/2015/12/43540265.jpg" alt=""></p>
+
+<p>Достоверность сто процентная. Можно даже попробовать поугадывать год, в&nbsp;котором снимался каждый отрывок. Не&nbsp;нужно быть американцем, там полно глобальных событий&nbsp;&mdash; выход книги Гарри Поттера, война в&nbsp;Ираке, выборы Барака Обамы.</p>
+
+<p>Фильм определённо придется по&nbsp;душе и&nbsp;по&nbsp;американской, и&nbsp;по&nbsp;русской.</p>]]></content:encoded></item><item><title><![CDATA[Тостер#3]]></title><description><![CDATA[<p>Кто-нибудь пробовал тему блого-движка Эгея переделать под Ghost тему?</p>
+
+<p>Движок "Эгея" 
+<a href="http://blogengine.ru">http://blogengine.ru</a></p>
+
+<p>Вот напрмиер тема "Свежая" для Эгеи
+<a href="https://github.com/artpolikarpov/fresh">https://github.com/artpolikarpov/fresh</a></p>
+
+<p>Документация для разработки темы для Ghost 
+<a href="https://themes.ghost.org/">https://themes.ghost.org/</a></p>
+
+<p>Тостер <a href="https://toster.ru/q/272517">https://toster.ru/q/272517</a></p>
+
+<p><img src="http://b.wndlust.ru/content/images/2015/12/-----------------2015-12-06-00-14-51.png" alt=""></p>]]></description><link>http://b.wndlust.ru/tostier/</link><guid isPermaLink="false">64061e4b-bcea-4fdc-b60a-50b21049dcfd</guid><category><![CDATA[тостер]]></category><category><![CDATA[вопрос]]></category><dc:creator><![CDATA[volyx]]></dc:creator><pubDate>Sat, 05 Dec 2015 21:33:59 GMT</pubDate><content:encoded><![CDATA[<p>Кто-нибудь пробовал тему блого-движка Эгея переделать под Ghost тему?</p>
+
+<p>Движок "Эгея" 
+<a href="http://blogengine.ru">http://blogengine.ru</a></p>
+
+<p>Вот напрмиер тема "Свежая" для Эгеи
+<a href="https://github.com/artpolikarpov/fresh">https://github.com/artpolikarpov/fresh</a></p>
+
+<p>Документация для разработки темы для Ghost 
+<a href="https://themes.ghost.org/">https://themes.ghost.org/</a></p>
+
+<p>Тостер <a href="https://toster.ru/q/272517">https://toster.ru/q/272517</a></p>
+
+<p><img src="http://b.wndlust.ru/content/images/2015/12/-----------------2015-12-06-00-14-51.png" alt=""></p>]]></content:encoded></item></channel></rss>
