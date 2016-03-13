@@ -1,5 +1,31 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0" xmlns:media="http://search.yahoo.com/mrss/"><channel><title><![CDATA[volyx]]></title><description><![CDATA[Все что в башне]]></description><link>http://b.wndlust.ru/</link><generator>Ghost 0.7</generator><lastBuildDate>Sun, 13 Mar 2016 18:56:37 GMT</lastBuildDate><atom:link href="http://b.wndlust.ru/rss/" rel="self" type="application/rss+xml"/><ttl>60</ttl><item><title><![CDATA[Мозголомка-2]]></title><description><![CDATA[<h4 id="">Задание</h4>
+<rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0" xmlns:media="http://search.yahoo.com/mrss/"><channel><title><![CDATA[volyx]]></title><description><![CDATA[Все что в башне]]></description><link>http://b.wndlust.ru/</link><generator>Ghost 0.7</generator><lastBuildDate>Sun, 13 Mar 2016 18:57:32 GMT</lastBuildDate><atom:link href="http://b.wndlust.ru/rss/" rel="self" type="application/rss+xml"/><ttl>60</ttl><item><title><![CDATA[Слышишь?]]></title><description><![CDATA[<p>Все ли делаешь правильно? Туда ли гребешь?</p>
+
+<p>А как определить? Может ты и не гребец вовсе? Может лопата вообще не для тебя?</p>
+
+<p>Как это понять?</p>
+
+<p>Прислушаться к себе? Слышно что-нибудь? А может и прислушиваться не умеешь?</p>
+
+<p>Вариантов нет. Не умеешь - сиди и слушай, сиди и учись слушать себя.</p>
+
+<p>Сделай</p>]]></description><link>http://b.wndlust.ru/tuda-li-kopaiesh/</link><guid isPermaLink="false">1185debd-524a-4093-b2e6-9084eee8b953</guid><dc:creator><![CDATA[volyx]]></dc:creator><pubDate>Sun, 13 Mar 2016 18:57:31 GMT</pubDate><content:encoded><![CDATA[<p>Все ли делаешь правильно? Туда ли гребешь?</p>
+
+<p>А как определить? Может ты и не гребец вовсе? Может лопата вообще не для тебя?</p>
+
+<p>Как это понять?</p>
+
+<p>Прислушаться к себе? Слышно что-нибудь? А может и прислушиваться не умеешь?</p>
+
+<p>Вариантов нет. Не умеешь - сиди и слушай, сиди и учись слушать себя.</p>
+
+<p>Сделай что-нибудь. Слушай. Что чувствуешь? Понравилось? Не понравилось? Что вызывает? Что-то ведь должно быть слышно.</p>
+
+<p>Тишина? Значит в громком месте сидишь? Уйди в тихое.</p>
+
+<p>Молчание? Может и не ты вовсе сделал? Ты вообще там был? Может это само произошло? И твоё участие опосредованно?</p>
+
+<p>Иди дальше и сделай сам и обдумай в тишине.</p>]]></content:encoded></item><item><title><![CDATA[Мозголомка-2]]></title><description><![CDATA[<h4 id="">Задание</h4>
 
 <p>Написать функцию, переворачивающую строку без использования дополнительной памяти</p>
 
@@ -778,30 +804,4 @@ How We Get Things Done – Productivity Stacks For Tech Startups <br>
 
 <p>Достоверность сто процентная. Можно даже попробовать поугадывать год, в&nbsp;котором снимался каждый отрывок. Не&nbsp;нужно быть американцем, там полно глобальных событий&nbsp;&mdash; выход книги Гарри Поттера, война в&nbsp;Ираке, выборы Барака Обамы.</p>
 
-<p>Фильм определённо придется по&nbsp;душе и&nbsp;по&nbsp;американской, и&nbsp;по&nbsp;русской.</p>]]></content:encoded></item><item><title><![CDATA[Тостер#3]]></title><description><![CDATA[<p>Кто-нибудь пробовал тему блого-движка Эгея переделать под Ghost тему?</p>
-
-<p>Движок "Эгея" 
-<a href="http://blogengine.ru">http://blogengine.ru</a></p>
-
-<p>Вот напрмиер тема "Свежая" для Эгеи
-<a href="https://github.com/artpolikarpov/fresh">https://github.com/artpolikarpov/fresh</a></p>
-
-<p>Документация для разработки темы для Ghost 
-<a href="https://themes.ghost.org/">https://themes.ghost.org/</a></p>
-
-<p>Тостер <a href="https://toster.ru/q/272517">https://toster.ru/q/272517</a></p>
-
-<p><img src="http://b.wndlust.ru/content/images/2015/12/-----------------2015-12-06-00-14-51.png" alt=""></p>]]></description><link>http://b.wndlust.ru/tostier/</link><guid isPermaLink="false">64061e4b-bcea-4fdc-b60a-50b21049dcfd</guid><category><![CDATA[тостер]]></category><category><![CDATA[вопрос]]></category><dc:creator><![CDATA[volyx]]></dc:creator><pubDate>Sat, 05 Dec 2015 21:33:59 GMT</pubDate><content:encoded><![CDATA[<p>Кто-нибудь пробовал тему блого-движка Эгея переделать под Ghost тему?</p>
-
-<p>Движок "Эгея" 
-<a href="http://blogengine.ru">http://blogengine.ru</a></p>
-
-<p>Вот напрмиер тема "Свежая" для Эгеи
-<a href="https://github.com/artpolikarpov/fresh">https://github.com/artpolikarpov/fresh</a></p>
-
-<p>Документация для разработки темы для Ghost 
-<a href="https://themes.ghost.org/">https://themes.ghost.org/</a></p>
-
-<p>Тостер <a href="https://toster.ru/q/272517">https://toster.ru/q/272517</a></p>
-
-<p><img src="http://b.wndlust.ru/content/images/2015/12/-----------------2015-12-06-00-14-51.png" alt=""></p>]]></content:encoded></item></channel></rss>
+<p>Фильм определённо придется по&nbsp;душе и&nbsp;по&nbsp;американской, и&nbsp;по&nbsp;русской.</p>]]></content:encoded></item></channel></rss>
